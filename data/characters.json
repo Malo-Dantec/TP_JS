@@ -1,0 +1,19 @@
+{
+    "characters": [
+      {
+        "id": 1,
+        "name": "Link",
+        "game": "Zelda",
+        "rating": 4.5,
+        "image": "link.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Mario",
+        "game": "Super Mario",
+        "rating": 4.7,
+        "image": "mario.jpg"
+      }
+    ]
+  }
+  
