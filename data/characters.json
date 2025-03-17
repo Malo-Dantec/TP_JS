@@ -1,55 +1,57 @@
 {
     "champions": {
       "top": [
-        {"id": 1, "nom": "Darius", "stats": {"ad": 64, "ap": 0, "armure": 39, "armure_magique": 32}, "items": []},
-        {"id": 2, "nom": "Garen", "stats": {"ad": 66, "ap": 0, "armure": 36, "armure_magique": 32}, "items": []},
-        {"id": 3, "nom": "Camille", "stats": {"ad": 62, "ap": 0, "armure": 35, "armure_magique": 32}, "items": []},
-        {"id": 4, "nom": "Fiora", "stats": {"ad": 68, "ap": 0, "armure": 33, "armure_magique": 30}, "items": []},
-        {"id": 5, "nom": "Jax", "stats": {"ad": 68, "ap": 0, "armure": 36, "armure_magique": 32}, "items": []}
+        {"id": 1, "type": ["Bruiser"], "nom": "Darius", "stats": {"ad": 64, "ap": 0, "armure": 39, "armure_magique": 32, "hp": 582, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 2, "type": ["Bruiser"], "nom": "Garen", "stats": {"ad": 66, "ap": 0, "armure": 36, "armure_magique": 32, "hp": 620, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 3, "type": ["Bruiser"], "nom": "Camille", "stats": {"ad": 62, "ap": 0, "armure": 35, "armure_magique": 32, "hp": 576, "vitesse_attaque": 0.644, "crit": 0}, "items": []},
+        {"id": 4, "type": ["Dueliste"], "nom": "Fiora", "stats": {"ad": 68, "ap": 0, "armure": 33, "armure_magique": 30, "hp": 550, "vitesse_attaque": 0.69, "crit": 0}, "items": []},
+        {"id": 5, "type": ["Bruiser"], "nom": "Jax", "stats": {"ad": 68, "ap": 0, "armure": 36, "armure_magique": 32, "hp": 593, "vitesse_attaque": 0.638, "crit": 0}, "items": []}
       ],
       "jungle": [
-        {"id": 6, "nom": "Lee Sin", "stats": {"ad": 70, "ap": 0, "armure": 36, "armure_magique": 32}, "items": []},
-        {"id": 7, "nom": "Kha'Zix", "stats": {"ad": 63, "ap": 0, "armure": 36, "armure_magique": 32}, "items": []},
-        {"id": 8, "nom": "Evelynn", "stats": {"ad": 61, "ap": 60, "armure": 32, "armure_magique": 30}, "items": []},
-        {"id": 9, "nom": "Rengar", "stats": {"ad": 68, "ap": 0, "armure": 34, "armure_magique": 32}, "items": []},
-        {"id": 10, "nom": "Nidalee", "stats": {"ad": 61, "ap": 65, "armure": 28, "armure_magique": 30}, "items": []}
+        {"id": 6, "type": ["Assassin", "Tank"], "nom": "Lee Sin", "stats": {"ad": 70, "ap": 0, "armure": 36, "armure_magique": 32, "hp": 575, "vitesse_attaque": 0.651, "crit": 0}, "items": []},
+        {"id": 7, "type": ["Assassin"], "nom": "Kha'Zix", "stats": {"ad": 63, "ap": 0, "armure": 36, "armure_magique": 32, "hp": 572, "vitesse_attaque": 0.668, "crit": 0}, "items": []},
+        {"id": 8, "type": ["Mage", "Assassin"], "nom": "Evelynn", "stats": {"ad": 61, "ap": 60, "armure": 32, "armure_magique": 30, "hp": 542, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 9, "type": ["Assassin"], "nom": "Rengar", "stats": {"ad": 68, "ap": 0, "armure": 34, "armure_magique": 32, "hp": 585, "vitesse_attaque": 0.658, "crit": 0}, "items": []},
+        {"id": 10, "type": ["Mage", "Assassin"], "nom": "Nidalee", "stats": {"ad": 61, "ap": 65, "armure": 28, "armure_magique": 30, "hp": 540, "vitesse_attaque": 0.67, "crit": 0}, "items": []}
       ],
       "mid": [
-        {"id": 11, "nom": "Ahri", "stats": {"ad": 53, "ap": 55, "armure": 20, "armure_magique": 30}, "items": []},
-        {"id": 12, "nom": "Zed", "stats": {"ad": 63, "ap": 0, "armure": 32, "armure_magique": 34}, "items": []},
-        {"id": 13, "nom": "Akali", "stats": {"ad": 62, "ap": 70, "armure": 23, "armure_magique": 32}, "items": []},
-        {"id": 14, "nom": "Orianna", "stats": {"ad": 50, "ap": 75, "armure": 21, "armure_magique": 30}, "items": []},
-        {"id": 15, "nom": "Kassadin", "stats": {"ad": 58, "ap": 70, "armure": 23, "armure_magique": 34}, "items": []}
+        {"id": 11, "type": ["Mage"], "nom": "Ahri", "stats": {"ad": 53, "ap": 55, "armure": 20, "armure_magique": 30, "hp": 526, "vitesse_attaque": 0.668, "crit": 0}, "items": []},
+        {"id": 12, "type": ["Assassin"], "nom": "Zed", "stats": {"ad": 63, "ap": 0, "armure": 32, "armure_magique": 34, "hp": 582, "vitesse_attaque": 0.651, "crit": 0}, "items": []},
+        {"id": 13, "type": ["Assassin"], "nom": "Akali", "stats": {"ad": 62, "ap": 70, "armure": 23, "armure_magique": 32, "hp": 575, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 14, "type": ["Mage"], "nom": "Orianna", "stats": {"ad": 50, "ap": 75, "armure": 21, "armure_magique": 30, "hp": 530, "vitesse_attaque": 0.658, "crit": 0}, "items": []},
+        {"id": 15, "type": ["Mage"], "nom": "Kassadin", "stats": {"ad": 58, "ap": 70, "armure": 23, "armure_magique": 34, "hp": 580, "vitesse_attaque": 0.64, "crit": 0}, "items": []}
       ],
-      "adc": [
-        {"id": 16, "nom": "Jinx", "stats": {"ad": 57, "ap": 0, "armure": 26, "armure_magique": 30}, "items": []},
-        {"id": 17, "nom": "Ezreal", "stats": {"ad": 60, "ap": 50, "armure": 25, "armure_magique": 30}, "items": []},
-        {"id": 18, "nom": "Kai'Sa", "stats": {"ad": 62, "ap": 55, "armure": 27, "armure_magique": 30}, "items": []},
-        {"id": 19, "nom": "Vayne", "stats": {"ad": 59, "ap": 0, "armure": 23, "armure_magique": 30}, "items": []},
-        {"id": 20, "nom": "Miss Fortune", "stats": {"ad": 63, "ap": 0, "armure": 28, "armure_magique": 30}, "items": []}
+      "bot": [
+        {"id": 16, "type": ["ADC"], "nom": "Jhin", "stats": {"ad": 68, "ap": 0, "armure": 30, "armure_magique": 30, "hp": 510, "vitesse_attaque": 0.63, "crit": 0.25}, "items": []},
+        {"id": 17, "type": ["ADC"], "nom": "Kai'Sa", "stats": {"ad": 64, "ap": 0, "armure": 28, "armure_magique": 32, "hp": 570, "vitesse_attaque": 0.663, "crit": 0.25}, "items": []},
+        {"id": 18, "type": ["ADC"], "nom": "Ezreal", "stats": {"ad": 58, "ap": 0, "armure": 28, "armure_magique": 30, "hp": 510, "vitesse_attaque": 0.667, "crit": 0.2}, "items": []},
+        {"id": 19, "type": ["ADC"], "nom": "Caitlyn", "stats": {"ad": 66, "ap": 0, "armure": 30, "armure_magique": 30, "hp": 530, "vitesse_attaque": 0.656, "crit": 0.25}, "items": []},
+        {"id": 20, "type": ["ADC"], "nom": "Miss Fortune", "stats": {"ad": 64, "ap": 0, "armure": 28, "armure_magique": 30, "hp": 600, "vitesse_attaque": 0.666, "crit": 0.25}, "items": []}
       ],
       "support": [
-        {"id": 21, "nom": "Thresh", "stats": {"ad": 56, "ap": 0, "armure": 28, "armure_magique": 30}, "items": []},
-        {"id": 22, "nom": "Leona", "stats": {"ad": 60, "ap": 0, "armure": 40, "armure_magique": 32}, "items": []},
-        {"id": 23, "nom": "Morgana", "stats": {"ad": 50, "ap": 70, "armure": 22, "armure_magique": 30}, "items": []},
-        {"id": 24, "nom": "Nami", "stats": {"ad": 52, "ap": 65, "armure": 20, "armure_magique": 30}, "items": []},
-        {"id": 25, "nom": "Braum", "stats": {"ad": 58, "ap": 0, "armure": 42, "armure_magique": 34}, "items": []}
+        {"id": 21, "type": ["Support", "Mage"], "nom": "Lulu", "stats": {"ad": 49, "ap": 60, "armure": 30, "armure_magique": 45, "hp": 500, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 22, "type": ["Support", "Mage"], "nom": "Nami", "stats": {"ad": 50, "ap": 60, "armure": 30, "armure_magique": 40, "hp": 510, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 23, "type": ["Support", "Tank"], "nom": "Leona", "stats": {"ad": 60, "ap": 0, "armure": 50, "armure_magique": 30, "hp": 580, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 24, "type": ["Support", "Mage"], "nom": "Janna", "stats": {"ad": 50, "ap": 70, "armure": 30, "armure_magique": 40, "hp": 530, "vitesse_attaque": 0.625, "crit": 0}, "items": []},
+        {"id": 25, "type": ["Support", "Tank"], "nom": "Alistar", "stats": {"ad": 60, "ap": 0, "armure": 40, "armure_magique": 40, "hp": 600, "vitesse_attaque": 0.625, "crit": 0}, "items": []}
       ]
     },
     "items": [
-      {"id": 1, "nom": "Lame d'infini", "stats": {"ad": 70, "crit": 20}},
-      {"id": 2, "nom": "Écho de Luden", "stats": {"ap": 80, "mana": 600}},
-      {"id": 3, "nom": "Plaque du mort", "stats": {"armure": 50, "hp": 300}},
-      {"id": 4, "nom": "Bâton du vide", "stats": {"ap": 65, "penetration_magique": 40}},
-      {"id": 5, "nom": "Danse de la mort", "stats": {"ad": 55, "vampirisme": 15}},
-      {"id": 6, "nom": "Visage spirituel", "stats": {"hp": 450, "armure_magique": 60}},
-      {"id": 7, "nom": "Gage de Sterak", "stats": {"hp": 400, "bouclier": 75}},
-      {"id": 8, "nom": "Morellonomicon", "stats": {"ap": 80, "anti_soins": 40}},
-      {"id": 9, "nom": "Rappel mortel", "stats": {"ad": 50, "anti_soins": 40}},
-      {"id": 10, "nom": "Zhonya", "stats": {"ap": 75, "armure": 45}},
-      {"id": 11, "nom": "Force de la nature", "stats": {"hp": 350, "armure_magique": 55}},
-      {"id": 12, "nom": "Tueur de Kraken", "stats": {"ad": 65, "vitesse": 15}},
-      {"id": 13, "nom": "Glaive d'ombre", "stats": {"ad": 55, "penetration_armure": 25}},
-      {"id": 14, "nom": "Gantelet givrant", "stats": {"hp": 450, "armure": 55}}
+      {"id": 1, "nom": "Force de la Trinité", "stats": {"ad": 35, "hp": 300, "vitesse_attaque": 0.33}},
+      {"id": 2, "nom": "Gage de Sterak", "stats": {"ad": 50, "hp": 400}},
+      {"id": 3, "nom": "Lame d'infini", "stats": {"ad": 70, "crit": 0.2}},
+      {"id": 4, "nom": "Écho de Luden", "stats": {"ap": 90}},
+      {"id": 5, "nom": "Présage de Randuin", "stats": {"armure": 80, "hp": 400}},
+      {"id": 6, "nom": "Bâton du Vide", "stats": {"ap": 65}},
+      {"id": 7, "nom": "Arc courbe", "stats": {"ad": 40, "vitesse_attaque": 0.45}},
+      {"id": 8, "nom": "Warmog", "stats": {"hp": 800}},
+      {"id": 9, "nom": "Angoisse de Liandry", "stats": {"ap": 75, "hp": 250}},
+      {"id": 10, "nom": "Voile de Banshee", "stats": {"armure": 60, "armure_magique": 45, "hp": 400}},
+      {"id": 11, "nom": "Sablier de Zhonya", "stats": {"ap": 75, "armure": 45}},
+      {"id": 12, "nom": "Écho de Luden", "stats": {"ap": 90}},
+      {"id": 13, "nom": "Lame d'infini", "stats": {"ad": 70, "crit": 0.25}},
+      {"id": 14, "nom": "Cœur gelé", "stats": {"ad": 60, "hp": 500}},
+      {"id": 15, "nom": "Sceptre de Rylai", "stats": {"ap": 80, "hp": 400}},
+      {"id": 16, "nom": "Danseur fantôme", "stats": {"ad": 45, "crit": 0.3, "vitesse_attaque": 0.45}}
     ]
   }

@@ -30,6 +30,23 @@ const Details = {
     async rateChampion(champId) {
         let rating = document.getElementById("rating").value;
         console.log(`Notation de ${rating} pour le champion ${champId}`);
+    },
+    
+    async loadChampionDetails(championName) {
+        const champions = await Provider.fetchData();
+        const champion = champions.find(champ => champ.name === championName);
+        
+        if (!champion) {
+            document.getElementById('content').innerHTML = '<p>Champion non trouvé.</p>';
+            return;
+        }
+        
+        document.getElementById('content').innerHTML = `
+            <h1>${champion.name}</h1>
+            <img src="${champion.image}" alt="${champion.name}">
+            <p>${champion.description}</p>
+        `;
     }
 };
+
 export default Details;
