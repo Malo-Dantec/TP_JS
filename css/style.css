@@ -1,0 +1,66 @@
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.champions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.champion-card {
+    background: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.champion-card:hover {
+    transform: translateY(-5px);
+}
+
+.champion-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Détails du champion */
+.champion-detail {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.page-btn {
+    padding: 8px 15px;
+    background: #333;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-btn.active {
+    background: #007bff;
+}

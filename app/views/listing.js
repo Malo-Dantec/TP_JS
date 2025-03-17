@@ -2,46 +2,32 @@ import Provider from "../provider.js";
 
 const Listing = {
     async render(page = 1) {
-        const contentElement = document.getElementById("content");
-        if (!contentElement) return;
-
-        const champions = await Provider.fetchData();
-        const itemsPerPage = 30;
+        const champions = await Provider.fetchChampions();
+        const itemsPerPage = 5;
         const totalPages = Math.ceil(champions.length / itemsPerPage);
         const paginatedChampions = champions.slice((page - 1) * itemsPerPage, page * itemsPerPage);
 
-        contentElement.innerHTML = `
-            <input type='text' id='search' placeholder='Rechercher un champion...' onkeyup='Listing.searchChampion()'>
-            <div class='champions-list'>
+        return `
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Rechercher un champion..." class="search-input">
+            </div>
+            <div class="champions-grid">
                 ${paginatedChampions.map(champ => `
-                    <div class='champion' onclick="location.hash='#details?id=${champ.id}'">
-                        <img src='${champ.image}' alt='${champ.nom}' loading='lazy'/>
-                        <p>${champ.nom}</p>
+                    <div class="champion-card" data-id="${champ.id}">
+                        <img src="app/images/${champ.image}" alt="${champ.name}" loading="lazy" class="champion-image">
+                        <div class="champion-info">
+                            <h3>${champ.name}</h3>
+                            <span class="champion-role">${champ.role}</span>
+                        </div>
                     </div>
                 `).join('')}
             </div>
-            <div class='pagination'>
-                ${Array.from({ length: totalPages }, (_, i) => `<button onclick='Listing.render(${i + 1})'>${i + 1}</button>`).join('')}
+            <div class="pagination">
+                ${Array.from({ length: totalPages }, (_, i) => 
+                    `<button class="page-btn ${i+1 === page ? 'active' : ''}" data-page="${i+1}">${i+1}</button>`
+                ).join('')}
             </div>
         `;
-    },
-    async searchChampion() {
-        const searchElement = document.getElementById("search");
-        if (!searchElement) return;
-
-        let query = searchElement.value.toLowerCase();
-        const champions = await Provider.fetchData();
-        let filtered = champions.filter(champ => champ.nom.toLowerCase().includes(query));
-
-        const listElement = document.querySelector(".champions-list");
-        if (listElement) {
-            listElement.innerHTML = filtered.map(champ => `
-                <div class='champion' onclick="location.hash='#details?id=${champions.id}'">
-                    <img src='${champions.images}' alt='${champions.nom}' loading='lazy'/>
-                    <p>${champions.nom}</p>
-                </div>
-            `).join('');
-        }
     }
 };
 
