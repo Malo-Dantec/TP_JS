@@ -1,11 +1,16 @@
-function loadMenu() {
-    const menu = document.createElement('nav');
-    menu.id = 'menu';
-    menu.innerHTML = `
-        <a href="#home">Accueil</a>
-        <a href="#favorites">Favoris</a>
-    `;
-    document.body.prepend(menu);
+import Provider from "../provider.js";
+
+async function loadChampionMenu() {
+    const champions = await Provider.fetchData();
+    const menuElement = document.getElementById("champion-menu");
+
+    if (!menuElement) return;
+
+    menuElement.innerHTML = champions.map(champ => `
+        <li>
+            <a href="#details?id=${champ.id}">${champ.nom}</a>
+        </li>
+    `).join('');
 }
 
-document.addEventListener('DOMContentLoaded', loadMenu);
+document.addEventListener("DOMContentLoaded", loadChampionMenu);
