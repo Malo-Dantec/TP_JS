@@ -64,3 +64,57 @@ body {
 .page-btn.active {
     background: #007bff;
 }
+
+/* Ajouts pour les nouvelles fonctionnalités */
+.role-filters {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.role-filter {
+    padding: 8px 15px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.role-filter.active {
+    background: #007bff;
+    border-color: #007bff;
+}
+
+.item-management {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.current-items .items-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item {
+    position: relative;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+}
+
+.remove-item {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #ff4444;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}

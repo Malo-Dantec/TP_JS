@@ -30,6 +30,32 @@ class Provider {
             return [];
         }
     }
+
+    static async updateChampion(id, data) {
+        try {
+            const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            return await response.json();
+        } catch (error) {
+            console.error('Erreur mise à jour champion', error);
+        }
+    }
+    
+    static async toggleItemFavorite(championId, itemId) {
+        const favorites = JSON.parse(localStorage.getItem('itemFavorites')) || {};
+        if (!favorites[championId]) favorites[championId] = [];
+        
+        const index = favorites[championId].indexOf(itemId);
+        if (index > -1) {
+            favorites[championId].splice(index, 1);
+        } else {
+            favorites[championId].push(itemId);
+        }
+        localStorage.setItem('itemFavorites', JSON.stringify(favorites));
+    }
 }
 
 export default Provider;
