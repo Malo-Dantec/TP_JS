@@ -20,6 +20,17 @@ class Router {
     }
 
     static addEventListeners() {
+        // Redirection sur la page détail du champion
+        document.querySelectorAll('.champion-card').forEach(card => {
+            card.addEventListener('click', (e) => {
+                // Empêche la navigation si on clique sur le bouton favori
+                if (!e.target.closest('.favorite-toggle')) {
+                    const championId = card.dataset.id;
+                    window.location.hash = `#details?id=${championId}`;
+                }
+            });
+        });
+
         // Gestion recherche
         const searchInput = document.getElementById('search');
         if (searchInput) {
@@ -62,6 +73,34 @@ class Router {
                 window.location.hash = `#listing?role=${role}`;
             });
         }
+
+         // Gestion de l'ajout d'item
+        document.querySelector('.add-item-btn')?.addEventListener('click', async () => {
+            const select = document.querySelector('.item-select');
+            const itemId = parseInt(select.value);
+            const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+
+            if (!championId || isNaN(itemId)) return;
+
+            try {
+                const champion = await Provider.fetchChampion(championId);
+                if (champion.items.length >= 6) {
+                    alert('Build complète (6 items maximum)');
+                    return;
+                }
+
+                if (champion.items.includes(itemId)) {
+                    alert('Cet item est déjà équipé');
+                    return;
+                }
+
+                const updatedItems = [...champion.items, itemId];
+                await Provider.updateChampion(championId, { items: updatedItems });
+                Router.loadRoute(); // Recharge la vue
+            } catch (error) {
+                console.error('Erreur ajout item:', error);
+            }
+        });
     }
 }
 

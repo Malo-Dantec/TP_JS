@@ -14,9 +14,28 @@ class Provider {
     static async fetchChampion(id) {
         try {
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`);
+            if (!response.ok) throw new Error('HTTP error ' + response.status);
             return await response.json();
         } catch (error) {
-            console.error('Champion non trouvé', error);
+            console.error('Erreur fetchChampion:', error);
+            return null;
+        }
+    }
+    
+    static async updateChampionItems(id, items) {
+        try {
+            const champion = await this.fetchChampion(id);
+            if (!champion) return null;
+    
+            const updated = { ...champion, items };
+            const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updated)
+            });
+            return await response.json();
+        } catch (error) {
+            console.error('Erreur updateChampionItems:', error);
             return null;
         }
     }

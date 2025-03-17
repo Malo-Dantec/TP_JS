@@ -118,3 +118,157 @@ body {
     color: white;
     cursor: pointer;
 }
+
+/* Détails du champion */
+.champion-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.champion-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.champion-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.champion-info h1 {
+    margin: 0 0 10px 0;
+    color: #ffd700;
+}
+
+.champion-meta {
+    margin-bottom: 20px;
+}
+
+.champion-meta .role {
+    background: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #444;
+}
+
+/* Gestion des items */
+.item-management {
+    margin-top: 30px;
+}
+
+.current-build {
+    margin-bottom: 30px;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.item-card {
+    position: relative;
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.item-card:hover {
+    transform: translateY(-3px);
+}
+
+.remove-item {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-item-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.item-select {
+    flex-grow: 1;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-item-button {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Modification des tailles d'images */
+.champion-image {
+    width: 100%;
+    height: 300px; /* Taille augmentée */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.detail-image {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: contain;
+    border: 2px solid #444;
+    border-radius: 15px;
+}
+
+/* Pour les images dans la grille */
+.champions-grid .champion-image {
+    height: 200px;
+}
+
+/* Pour les images des favoris */
+.favorite-card img {
+    height: 150px;
+    object-fit: cover;
+}
