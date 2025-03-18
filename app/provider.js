@@ -52,10 +52,17 @@ class Provider {
 
     static async updateChampion(id, data) {
         try {
+            // Récupérer d'abord les données existantes
+            const champion = await this.fetchChampion(id);
+            if (!champion) return null;
+    
+            // Fusionner les modifications avec les données existantes
+            const updatedData = { ...champion, ...data };
+    
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data)
+                body: JSON.stringify(updatedData) // Envoyer l'objet complet
             });
             return await response.json();
         } catch (error) {

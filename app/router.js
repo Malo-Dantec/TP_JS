@@ -1,3 +1,4 @@
+import Provider from './provider.js';
 import Listing from './views/listing.js';
 import Details from './views/details.js';
 import { debounce } from './utils/helpers.js';
@@ -123,6 +124,28 @@ class Router {
             });
         }
 
+        // Gestion de la suppression d'item
+        document.querySelectorAll('.remove-item').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const itemId = parseInt(e.target.closest('.item-card').dataset.id);
+                const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+
+                try {
+                    const champion = await Provider.fetchChampion(championId);
+                    const updatedItems = champion.items.filter(id => id !== itemId);
+                    
+                    await Provider.updateChampion(championId, { 
+                        items: updatedItems,
+                        stats: champion.stats // Réinitialiser les stats de base
+                    });
+                    
+                    Router.loadRoute();
+                } catch (error) {
+                    console.error('Erreur suppression item:', error);
+                }
+            });
+        });
+
         // Favoris dans Details
         document.querySelector('.favorite-detail')?.addEventListener('click', async (e) => {
             const championId = e.target.dataset.id;
@@ -160,6 +183,7 @@ class Router {
 
                 const updatedItems = [...champion.items, itemId];
                 await Provider.updateChampion(championId, { items: updatedItems });
+                window.location.reload();
                 Router.loadRoute(); // Recharge la vue
             } catch (error) {
                 console.error('Erreur ajout item:', error);
