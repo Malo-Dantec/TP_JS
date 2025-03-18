@@ -13,9 +13,11 @@ const routes = {
 class Router {
     static async loadRoute() {
         const [hash, query] = window.location.hash.split('?');
+        const params = new URLSearchParams(query);
         const currentRoute = routes[hash] || Listing;
+        const currentPage = parseInt(params.get('page')) || 1; // Récupération du paramètre page
         
-        document.getElementById('content').innerHTML = await currentRoute.render();
+        document.getElementById('content').innerHTML = await currentRoute.render(currentPage); // Passage du paramètre
         this.addEventListeners();
     }
 
