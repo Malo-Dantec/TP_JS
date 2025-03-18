@@ -295,3 +295,105 @@ body {
     color: #1a1a1a;
     border-color: #ffd700;
 }
+
+
+/* Détails du champion */
+.champion-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.champion-header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.champion-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.champion-info {
+    flex: 1;
+}
+
+.champion-info h1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 15px 0;
+}
+
+.favorite-detail {
+    font-size: 1.5em;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #ffd700;
+}
+
+.item-management {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.current-build h3 {
+    color: #ffd700;
+    margin-top: 0;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.add-item-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .champion-header {
+        flex-direction: row;
+    }
+    
+    .item-management {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+
+.add-item-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.toggle-favorite-item {
+    padding: 10px;
+    background: #444;
+    border: none;
+    border-radius: 5px;
+    color: #ffd700;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.items-grid .item-card.favorite {
+    border: 2px solid #ffd700;
+}

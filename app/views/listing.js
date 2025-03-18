@@ -32,13 +32,15 @@ const Listing = {
                 <div class="filters-container">
                     <div class="role-filters">
                         ${['top', 'jungle', 'mid', 'bot', 'support'].map(role => `
-                            <button class="role-filter ${role === roleFilter ? 'active' : ''}" data-role="${role}">
+                            <button class="role-filter ${role === roleFilter ? 'active' : ''}" 
+                                    data-role="${role}"
+                                    aria-pressed="${role === roleFilter ? 'true' : 'false'}">
                                 ${role.toUpperCase()}
                             </button>
                         `).join('')}
                     </div>
                     <button class="favorites-toggle ${favoritesOnly ? 'active' : ''}" 
-                            onclick="window.location.hash = '#listing?favorites=${!favoritesOnly}'">
+                            data-favorites="${!favoritesOnly}">
                         ★ Favoris
                     </button>
                 </div>
@@ -64,7 +66,7 @@ const Listing = {
                     ${Array.from({length: totalPages}, (_, i) => `
                         <button class="page-btn ${i+1 === page ? 'active' : ''}" 
                                 data-page="${i+1}"
-                                onclick="window.location.hash = '#listing?page=${i+1}${roleFilter ? `&role=${roleFilter}` : ''}${favoritesOnly ? '&favorites=true' : ''}'">
+                                onclick="window.location.hash = '#listing?${[...currentParams.entries()].map(([k,v]) => `${k}=${encodeURIComponent(v)}`).join('&')}&page=${i+1}'"
                             ${i+1}
                         </button>
                     `).join('')}

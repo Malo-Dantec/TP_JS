@@ -1,13 +1,11 @@
 import Listing from './views/listing.js';
 import Details from './views/details.js';
-import Favoris from './views/favoris.js';
 import { debounce } from './utils/helpers.js';
 
 const routes = {
     '/': Listing,
     '#listing': Listing,
     '#details': Details,
-    '#favoris': Favoris
 };
 
 class Router {
@@ -42,28 +40,77 @@ class Router {
             }, 300));
         }
 
+        // Gestion de l'ajout d'item
+        document.querySelector('.add-item-button')?.addEventListener('click', async () => {
+            const select = document.querySelector('.item-select');
+            const itemId = parseInt(select.value);
+            const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+
+            if (!championId || isNaN(itemId)) return;
+
+            try {
+                const champion = await Provider.fetchChampion(championId);
+                if (champion.items.length >= 6) {
+                    alert('Build complète (6 items maximum)');
+                    return;
+                }
+
+                if (champion.items.includes(itemId)) {
+                    alert('Cet item est déjà équipé');
+                    return;
+                }
+
+                const updatedItems = [...champion.items, itemId];
+                await Provider.updateChampion(championId, { items: updatedItems });
+                Router.loadRoute();
+            } catch (error) {
+                console.error('Erreur ajout item:', error);
+            }
+        });
+
+        // Gestion des favoris par champion
+        document.querySelector('.toggle-favorite-item')?.addEventListener('click', async () => {
+            const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+            const itemId = parseInt(document.querySelector('.item-select').value); // Correction ici
+            
+            if (!championId || isNaN(itemId)) return;
+        
+            await Provider.toggleItemFavorite(championId, itemId);
+            Router.loadRoute();
+        });
+
         // Filtres par rôle
         document.querySelectorAll('.role-filter').forEach(btn => {
             btn.addEventListener('click', () => {
-                const role = btn.dataset.role;
-                window.location.hash = `#listing?role=${role}`;
+                const currentParams = new URLSearchParams(window.location.hash.split('?')[1] || '');
+                const currentRole = currentParams.get('role');
+                const newRole = btn.dataset.role === currentRole ? null : btn.dataset.role;
+                
+                if (newRole) {
+                    currentParams.set('role', newRole);
+                } else {
+                    currentParams.delete('role');
+                }
+                
+                currentParams.delete('page');
+                window.location.hash = `#listing?${currentParams.toString()}`;
             });
         });
 
         // Gestion favoris champions
-        document.querySelectorAll('.favorite-toggle').forEach(btn => {
-            btn.addEventListener('click', async () => {
-                const championId = btn.dataset.id;
-                const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-                const index = favorites.indexOf(championId);
+        document.querySelectorAll('.favorites-toggle').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const currentParams = new URLSearchParams(window.location.hash.split('?')[1] || '');
+                const newFavorites = btn.dataset.favorites === 'true';
                 
-                if (index > -1) {
-                    favorites.splice(index, 1);
+                if (newFavorites) {
+                    currentParams.set('favorites', 'true');
                 } else {
-                    favorites.push(championId);
+                    currentParams.delete('favorites');
                 }
-                localStorage.setItem('favorites', JSON.stringify(favorites));
-                btn.textContent = index > -1 ? '☆' : '★';
+                
+                currentParams.delete('page'); // Réinitialiser la pagination
+                window.location.hash = `#listing?${currentParams.toString()}`;
             });
         });
 
@@ -75,6 +122,21 @@ class Router {
                 window.location.hash = `#listing?role=${role}`;
             });
         }
+
+        // Favoris dans Details
+        document.querySelector('.favorite-detail')?.addEventListener('click', async (e) => {
+            const championId = e.target.dataset.id;
+            const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+            const index = favorites.indexOf(championId);
+            
+            if (index > -1) {
+                favorites.splice(index, 1);
+            } else {
+                favorites.push(championId);
+            }
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+            e.target.textContent = index > -1 ? '☆' : '★';
+        });
 
          // Gestion de l'ajout d'item
         document.querySelector('.add-item-btn')?.addEventListener('click', async () => {

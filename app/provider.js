@@ -74,6 +74,7 @@ class Provider {
             favorites[championId].push(itemId);
         }
         localStorage.setItem('itemFavorites', JSON.stringify(favorites));
+        return favorites;
     }
 }
 
