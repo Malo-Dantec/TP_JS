@@ -23,7 +23,7 @@ const Details = {
                     <a href="#listing" class="back-button">← Retour</a>
                     
                     <div class="champion-header">
-                        <img src="app/images/${champion.image}" 
+                        <img src="app/images/champions/${champion.image}" 
                             alt="${champion.name}" 
                             class="champion-image"
                             loading="lazy">
