@@ -1,3 +1,0 @@
-npm install -g json-server
-npx json server votrefichier.json
-php -S localhost:8000 index.html

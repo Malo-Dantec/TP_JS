@@ -41,43 +41,43 @@ const Details = {
                             </div>
                             
                             <div class="stats-container">
-                                ${updateStatsDisplay(champion.stats)}
+                                ${updateStatsDisplay(this.calculateTotalStats(champion, items))}
                             </div>
-                        </div>
-                    </div>
 
-                    <div class="item-management">
-                        <div class="current-build">
-                            <h3>Build actuelle (${champion.items.length}/6)</h3>
-                            <div class="items-grid">
-                                ${champion.items.map(itemId => {
-                                    const item = items.find(i => i.id === itemId);
-                                    return item ? `
-                                        <div class="item-card" data-id="${item.id}">
-                                            <div class="item-name">${item.nom}</div>
-                                            <button class="remove-item">×</button>
-                                        </div>
-                                    ` : '';
-                                }).join('')}
+                            <div class="current-build">
+                                <h3>Build actuel (${champion.items.length}/6)</h3>
+                                <div class="items-grid">
+                                    ${champion.items.map(itemId => {
+                                        const item = items.find(i => i.id == itemId); // Utilisation de == pour tolérer les types
+                                        return item ? `
+                                            <div class="item-card" data-id="${item.id}">
+                                                <div class="item-name">${item.nom}</div>
+                                                <div class="item-stats">${this.formatItemStats(item)}</div>
+                                                <button class="remove-item">×</button>
+                                            </div>
+                                        ` : '';
+                                    }).join('')}
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="add-item-section">
-                            <select class="item-select">
-                                ${items.filter(i => !champion.items.includes(i.id))
-                                .map(i => `
-                                    <option value="${i.id}" 
-                                            ${(favorites[champion.id] || []).includes(i.id) ? 'data-favorite' : ''}>
-                                        ${i.nom} ${(favorites[champion.id] || []).includes(i.id) ? '★' : ''}
-                                    </option>
-                                `).join('')}
-                            </select>
-                            
-                            <button class="toggle-favorite-item">
-                                ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
-                            </button>
-                            
-                            <button class="add-item-button">Ajouter l'item</button>
+                            <div class="add-item-section">
+                                <select class="item-select">
+                                    ${items
+                                        .filter(i => 
+                                            !champion.items.includes(i.id) && // Exclure les items déjà équipés
+                                            i.id // S'assurer que l'item existe
+                                        )
+                                        .map(i => `
+                                            <option value="${i.id}">
+                                                ${i.nom} (${this.formatItemStats(i)})
+                                            </option>
+                                        `).join('')}
+                                </select>
+                                <button class="toggle-favorite-item">
+                                    ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
+                                </button>
+                                <button class="add-item-button">Ajouter l'item</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,6 +85,34 @@ const Details = {
         } catch (error) {
             console.error(error);
             return '<div class="error">Erreur de chargement des détails</div>';
+        }
+    },
+
+    formatItemStats(item) {
+        return Object.entries(item.stats)
+            .map(([key, val]) => `${key.toUpperCase()}: ${val}`)
+            .join(', ');
+    },
+
+    calculateTotalStats(champion, items) {
+        const baseStats = { ...champion.stats };
+        return champion.items.reduce((acc, itemId) => {
+            const item = items.find(i => i.id == itemId); // Utilisation de == pour tolérer les types
+            if (item) {
+                Object.entries(item.stats).forEach(([stat, value]) => {
+                    acc[stat] = (acc[stat] || 0) + value;
+                });
+            }
+            return acc;
+        }, baseStats);
+    },
+    
+    refreshStats() {
+        const statsContainer = document.querySelector('.stats-container');
+        if (statsContainer) {
+            statsContainer.innerHTML = updateStatsDisplay(
+                this.calculateTotalStats(currentChampion, allItems)
+            );
         }
     }
 };

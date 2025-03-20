@@ -51,12 +51,6 @@ const Listing = {
                         <img src="app/images/${c.image}" alt="${c.name}" loading="lazy">
                         <div class="info">
                             <h3>${c.name}</h3>
-                            <div class="meta">
-                                <span class="role">${c.role}</span>
-                                <button class="favorite-toggle" data-id="${c.id}">
-                                    ${favorites.includes(c.id) ? '★' : '☆'}
-                                </button>
-                            </div>
                         </div>
                     </div>
                 `).join('')}

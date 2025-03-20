@@ -397,3 +397,32 @@ body {
 .items-grid .item-card.favorite {
     border: 2px solid #ffd700;
 }
+
+.item-card {
+    position: relative;
+    padding: 15px;
+    background: #333;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.item-stats {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.remove-item {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
