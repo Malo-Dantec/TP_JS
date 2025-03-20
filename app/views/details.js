@@ -45,10 +45,10 @@ const Details = {
                             </div>
 
                             <div class="current-build">
-                                <h3>Build actuelle (${champion.items.length}/6)</h3>
+                                <h3>Build actuel (${champion.items.length}/6)</h3>
                                 <div class="items-grid">
                                     ${champion.items.map(itemId => {
-                                        const item = items.find(i => i.id === itemId);
+                                        const item = items.find(i => i.id == itemId); // Utilisation de == pour tolérer les types
                                         return item ? `
                                             <div class="item-card" data-id="${item.id}">
                                                 <div class="item-name">${item.nom}</div>
@@ -73,12 +73,11 @@ const Details = {
                                             </option>
                                         `).join('')}
                                 </select>
+                                <button class="toggle-favorite-item">
+                                    ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
+                                </button>
+                                <button class="add-item-button">Ajouter l'item</button>
                             </div>
-                            <button class="toggle-favorite-item">
-                                ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
-                            </button>
-                            
-                            <button class="add-item-button">Ajouter l'item</button>
                         </div>
                     </div>
                 </div>
@@ -98,7 +97,7 @@ const Details = {
     calculateTotalStats(champion, items) {
         const baseStats = { ...champion.stats };
         return champion.items.reduce((acc, itemId) => {
-            const item = items.find(i => i.id === itemId);
+            const item = items.find(i => i.id == itemId); // Utilisation de == pour tolérer les types
             if (item) {
                 Object.entries(item.stats).forEach(([stat, value]) => {
                     acc[stat] = (acc[stat] || 0) + value;

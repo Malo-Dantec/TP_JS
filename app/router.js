@@ -52,7 +52,7 @@ class Router {
             try {
                 const champion = await Provider.fetchChampion(championId);
                 if (champion.items.length >= 6) {
-                    alert('Build complète (6 items maximum)');
+                    alert('Build complet (6 items maximum)');
                     return;
                 }
 
@@ -62,7 +62,7 @@ class Router {
                 }
 
                 const updatedItems = [...champion.items, itemId];
-                await Provider.updateChampion(championId, { items: updatedItems });
+                await Provider.updateChampionItems(championId, updatedItems);
                 Router.loadRoute();
             } catch (error) {
                 console.error('Erreur ajout item:', error);
@@ -172,7 +172,7 @@ class Router {
             try {
                 const champion = await Provider.fetchChampion(championId);
                 if (champion.items.length >= 6) {
-                    alert('Build complète (6 items maximum)');
+                    alert('Build complet (6 items maximum)');
                     return;
                 }
 
@@ -182,7 +182,7 @@ class Router {
                 }
 
                 const updatedItems = [...champion.items, itemId];
-                await Provider.updateChampion(championId, { items: updatedItems });
+                await Provider.updateChampionItems(championId, updatedItems);
                 window.location.reload();
                 Router.loadRoute(); // Recharge la vue
             } catch (error) {

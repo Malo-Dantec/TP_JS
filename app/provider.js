@@ -24,14 +24,10 @@ class Provider {
     
     static async updateChampionItems(id, items) {
         try {
-            const champion = await this.fetchChampion(id);
-            if (!champion) return null;
-    
-            const updated = { ...champion, items };
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {
-                method: 'PUT',
+                method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(updated)
+                body: JSON.stringify({ items })
             });
             return await response.json();
         } catch (error) {
