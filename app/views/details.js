@@ -17,6 +17,7 @@ const Details = {
             if (!champion) return '<div class="error">Champion introuvable</div>';
 
             const favorites = JSON.parse(localStorage.getItem('itemFavorites')) || {};
+            const savedKits = await Provider.getChampionKits(champion.id);
 
             return `
                 <div class="champion-detail">
@@ -59,7 +60,27 @@ const Details = {
                                     }).join('')}
                                 </div>
                             </div>
-
+                            <div class="kit-management">
+                                <h3>Builds sauvegardés</h3>
+                                
+                                <div class="save-kit">
+                                    <input type="text" class="kit-name" placeholder="Nom du build">
+                                    <button class="save-kit-button">💾 Sauvegarder</button>
+                                </div>
+                                
+                                <div class="saved-kits">
+                                    ${savedKits.map(kit => `
+                                        <div class="kit-item">
+                                            <span class="kit-name">${kit.name}</span>
+                                            <div class="kit-actions">
+                                                <button class="load-kit" data-id="${kit.id}">⬆️</button>
+                                                <button class="rename-kit" data-id="${kit.id}">✏️</button>
+                                                <button class="delete-kit" data-id="${kit.id}">🗑️</button>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
                             <div class="add-item-section">
                                 <select class="item-select">
                                     ${items
@@ -82,6 +103,7 @@ const Details = {
                     </div>
                 </div>
             `;
+            
         } catch (error) {
             console.error(error);
             return '<div class="error">Erreur de chargement des détails</div>';
