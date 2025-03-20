@@ -161,6 +161,74 @@ class Router {
             e.target.textContent = index > -1 ? '☆' : '★';
         });
 
+        // Sauvegarde d'une nouvelle build
+        document.querySelector('.save-kit-button')?.addEventListener('click', async () => {
+            const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+            const champion = await Provider.fetchChampion(championId);
+            const kitName = document.querySelector('.kit-name').value.trim();
+
+            if (!kitName) {
+                alert('Veuillez donner un nom à votre build');
+                return;
+            }
+
+            if (champion.items.length === 0) {
+                alert('Le build doit contenir au moins 1 item !');
+                return;
+            }
+
+            await Provider.manageItemKits({
+                name: kitName,
+                items: [...champion.items],
+                championId: championId
+            }, 'save');
+
+            Router.loadRoute();
+        });
+
+        // Chargement d'une build
+        document.querySelectorAll('.load-kit').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const kitId = e.target.dataset.id;
+                const kits = await Provider.manageItemKits();
+                const kit = kits.find(k => k.id === kitId);
+
+                if (kit && confirm(`Charger le build "${kit.name}" ?`)) {
+                    await Provider.updateChampion(kit.championId, { items: kit.items });
+                    Router.loadRoute();
+                }
+            });
+        });
+
+        // Suppression d'une build
+        document.querySelectorAll('.delete-kit').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const kitId = e.target.dataset.id;
+                if (confirm('Supprimer définitivement ce build ?')) {
+                    await Provider.manageItemKits({ id: kitId }, 'delete');
+                    Router.loadRoute();
+                }
+            });
+        });
+
+        // Renommage d'une build
+        document.querySelectorAll('.rename-kit').forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const kitId = e.target.dataset.id;
+                const kits = await Provider.manageItemKits();
+                const kit = kits.find(k => k.id === kitId);
+                const newName = prompt('Nouveau nom :', kit.name);
+
+                if (newName) {
+                    await Provider.manageItemKits({ 
+                        id: kitId, 
+                        name: newName 
+                    }, 'update');
+                    Router.loadRoute();
+                }
+            });
+        });
+
          // Gestion de l'ajout d'item
         document.querySelector('.add-item-btn')?.addEventListener('click', async () => {
             const select = document.querySelector('.item-select');

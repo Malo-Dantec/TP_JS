@@ -79,6 +79,40 @@ class Provider {
         localStorage.setItem('itemFavorites', JSON.stringify(favorites));
         return favorites;
     }
+
+    static async manageItemKits(kitData = null, action = 'get') {
+        const kits = JSON.parse(localStorage.getItem('itemKits')) || {};
+        
+        switch(action) {
+            case 'save':
+                if (!kitData.name || kitData.items.length === 0) return;
+                const kitId = Date.now().toString();
+                kits[kitId] = {
+                    ...kitData,
+                    id: kitId,
+                    timestamp: new Date().toISOString()
+                };
+                break;
+                
+            case 'update':
+                if (kits[kitData.id]) {
+                    kits[kitData.id] = { ...kits[kitData.id], ...kitData };
+                }
+                break;
+                
+            case 'delete':
+                delete kits[kitData.id];
+                break;
+        }
+        
+        localStorage.setItem('itemKits', JSON.stringify(kits));
+        return Object.values(kits);
+    }
+    
+    static async getChampionKits(championId) {
+        const kits = JSON.parse(localStorage.getItem('itemKits')) || {};
+        return Object.values(kits).filter(kit => kit.championId === championId);
+    }
 }
 
 export default Provider;
