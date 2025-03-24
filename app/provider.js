@@ -14,8 +14,12 @@ class Provider {
     static async fetchChampion(id) {
         try {
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`);
-            if (!response.ok) throw new Error('HTTP error ' + response.status);
-            return await response.json();
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            // json-server retourne un objet avec la clé correspondante
+            return data.id ? data : null;
         } catch (error) {
             console.error('Erreur fetchChampion:', error);
             return null;

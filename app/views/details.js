@@ -18,6 +18,9 @@ const Details = {
 
             const favorites = JSON.parse(localStorage.getItem('itemFavorites')) || {};
             const savedKits = await Provider.getChampionKits(champion.id);
+            const availableItems = items.filter(i => 
+                !champion.items.includes(i.id) && i.id
+            );
 
             return `
                 <div class="champion-detail">
@@ -49,7 +52,7 @@ const Details = {
                                 <h3>Build actuel (${champion.items.length}/6)</h3>
                                 <div class="items-grid">
                                     ${champion.items.map(itemId => {
-                                        const item = items.find(i => i.id == itemId); // Utilisation de == pour tolérer les types
+                                        const item = items.find(i => i.id == itemId);
                                         return item ? `
                                             <div class="item-card" data-id="${item.id}">
                                                 <div class="item-name">${item.nom}</div>
@@ -83,27 +86,23 @@ const Details = {
                             </div>
                             <div class="add-item-section">
                                 <select class="item-select">
-                                    ${items
-                                        .filter(i => 
-                                            !champion.items.includes(i.id) && // Exclure les items déjà équipés
-                                            i.id // S'assurer que l'item existe
-                                        )
-                                        .map(i => `
-                                            <option value="${i.id}">
-                                                ${i.nom} (${this.formatItemStats(i)})
-                                            </option>
-                                        `).join('')}
+                                    ${availableItems.map(i => `
+                                        <option value="${i.id}">
+                                            ${i.nom} (${this.formatItemStats(i)})
+                                        </option>
+                                    `).join('')}
                                 </select>
-                                <button class="toggle-favorite-item">
-                                    ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
-                                </button>
+                                ${availableItems.length > 0 ? `
+                                    <button class="toggle-favorite-item">
+                                        ${(favorites[champion.id] || []).includes(availableItems[0].id) ? '★' : '☆'}
+                                    </button>
+                                ` : ''}
                                 <button class="add-item-button">Ajouter l'item</button>
                             </div>
                         </div>
                     </div>
                 </div>
             `;
-            
         } catch (error) {
             console.error(error);
             return '<div class="error">Erreur de chargement des détails</div>';
