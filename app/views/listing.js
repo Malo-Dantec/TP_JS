@@ -19,10 +19,14 @@ const Listing = {
             champions = champions.filter(c => c.role === roleFilter);
         }
 
+        // Tri par ordre alphabétique
+        champions.sort((a, b) => a.name.localeCompare(b.name));
+
         // Pagination
         const itemsPerPage = champions.length;
         const totalPages = Math.ceil(champions.length / itemsPerPage);
         const paginated = champions.slice((page - 1) * itemsPerPage, page * itemsPerPage);
+
 
         return `
             <div class="controls">

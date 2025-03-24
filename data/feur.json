@@ -1,0 +1,680 @@
+{
+  "champions": [
+    {
+      "id": "1",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Darius",
+      "stats": {
+        "ad": 64,
+        "ap": 0,
+        "armure": 39,
+        "armure_magique": 32,
+        "hp": 582,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "darius.jpg",
+      "description": "Le Maître de la guillotine"
+    },
+    {
+      "id": "2",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Garen",
+      "stats": {
+        "ad": 66,
+        "ap": 0,
+        "armure": 36,
+        "armure_magique": 32,
+        "hp": 620,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "garen.jpg",
+      "description": "Le Pouvoir de Demacia"
+    },
+    {
+      "id": "3",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Camille",
+      "stats": {
+        "ad": 62,
+        "ap": 0,
+        "armure": 35,
+        "armure_magique": 32,
+        "hp": 576,
+        "vitesse_attaque": 0.644,
+        "crit": 0
+      },
+      "items": [
+        1,
+        8,
+        14,
+        16,
+        3,
+        4
+      ],
+      "favoriteItems": [],
+      "image": "camille.jpg",
+      "description": "La Piste de la Caméléon"
+    },
+    {
+      "id": "4",
+      "role": "top",
+      "type": [
+        "Dueliste"
+      ],
+      "name": "Fiora",
+      "stats": {
+        "ad": 68,
+        "ap": 0,
+        "armure": 33,
+        "armure_magique": 30,
+        "hp": 550,
+        "vitesse_attaque": 0.69,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "fiora.jpg",
+      "description": "La Maîtresse du Duelliste"
+    },
+    {
+      "id": "5",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Jax",
+      "stats": {
+        "ad": 68,
+        "ap": 0,
+        "armure": 36,
+        "armure_magique": 32,
+        "hp": 593,
+        "vitesse_attaque": 0.638,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "jax.jpg",
+      "description": "Le Maître des Armes"
+    },
+    {
+      "id": "6",
+      "role": "jungle",
+      "type": [
+        "Assassin",
+        "Tank"
+      ],
+      "name": "Lee Sin",
+      "stats": {
+        "ad": 70,
+        "ap": 0,
+        "armure": 36,
+        "armure_magique": 32,
+        "hp": 575,
+        "vitesse_attaque": 0.651,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "leesin.jpg",
+      "description": "Le Moine Aveugle"
+    },
+    {
+      "id": "7",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Kha'Zix",
+      "stats": {
+        "ad": 63,
+        "ap": 0,
+        "armure": 36,
+        "armure_magique": 32,
+        "hp": 572,
+        "vitesse_attaque": 0.668,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "khazix.jpg",
+      "description": "L'Assassin Invisible"
+    },
+    {
+      "id": "8",
+      "role": "jungle",
+      "type": [
+        "Mage",
+        "Assassin"
+      ],
+      "name": "Evelynn",
+      "stats": {
+        "ad": 61,
+        "ap": 60,
+        "armure": 32,
+        "armure_magique": 30,
+        "hp": 542,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "evelynn.jpg",
+      "description": "La Démone de l'Ombre"
+    },
+    {
+      "id": "9",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Rengar",
+      "stats": {
+        "ad": 68,
+        "ap": 0,
+        "armure": 34,
+        "armure_magique": 32,
+        "hp": 585,
+        "vitesse_attaque": 0.658,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "rengar.jpg",
+      "description": "Le Chasseur Sauvage"
+    },
+    {
+      "id": "10",
+      "role": "jungle",
+      "type": [
+        "Mage",
+        "Assassin"
+      ],
+      "name": "Nidalee",
+      "stats": {
+        "ad": 61,
+        "ap": 65,
+        "armure": 28,
+        "armure_magique": 30,
+        "hp": 540,
+        "vitesse_attaque": 0.67,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nidalee.jpg",
+      "description": "La Chasseresse du Désert"
+    },
+    {
+      "id": "11",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Ahri",
+      "stats": {
+        "ad": 53,
+        "ap": 55,
+        "armure": 20,
+        "armure_magique": 30,
+        "hp": 526,
+        "vitesse_attaque": 0.668,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ahri.jpg",
+      "description": "La Renarde à Neuf Queues"
+    },
+    {
+      "id": "12",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Zed",
+      "stats": {
+        "ad": 63,
+        "ap": 0,
+        "armure": 32,
+        "armure_magique": 34,
+        "hp": 582,
+        "vitesse_attaque": 0.651,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zed.jpg",
+      "description": "L'Ombre de la Faucheuse"
+    },
+    {
+      "id": "13",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Akali",
+      "stats": {
+        "ad": 62,
+        "ap": 70,
+        "armure": 23,
+        "armure_magique": 32,
+        "hp": 575,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "akali.jpg",
+      "description": "La Maître de l'Assassinat"
+    },
+    {
+      "id": "14",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Orianna",
+      "stats": {
+        "ad": 50,
+        "ap": 75,
+        "armure": 21,
+        "armure_magique": 30,
+        "hp": 530,
+        "vitesse_attaque": 0.658,
+        "crit": 0
+      },
+      "items": [
+        4,
+        11,
+        6,
+        15,
+        9,
+        5
+      ],
+      "favoriteItems": [],
+      "image": "orianna.jpg",
+      "description": "La Dame de Fer"
+    },
+    {
+      "id": "15",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Kassadin",
+      "stats": {
+        "ad": 58,
+        "ap": 70,
+        "armure": 23,
+        "armure_magique": 34,
+        "hp": 580,
+        "vitesse_attaque": 0.64,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kassadin.jpg",
+      "description": "Le Chasseur d'Esprits"
+    },
+    {
+      "id": "16",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Jhin",
+      "stats": {
+        "ad": 68,
+        "ap": 0,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 510,
+        "vitesse_attaque": 0.63,
+        "crit": 0.25
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "jhin.jpg",
+      "description": "Le Virtuose"
+    },
+    {
+      "id": "17",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Kai'Sa",
+      "stats": {
+        "ad": 64,
+        "ap": 0,
+        "armure": 28,
+        "armure_magique": 32,
+        "hp": 570,
+        "vitesse_attaque": 0.663,
+        "crit": 0.25
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kaisa.jpg",
+      "description": "La Fille du Vide"
+    },
+    {
+      "id": "18",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Ezreal",
+      "stats": {
+        "ad": 58,
+        "ap": 0,
+        "armure": 28,
+        "armure_magique": 30,
+        "hp": 510,
+        "vitesse_attaque": 0.667,
+        "crit": 0.2
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ezreal.jpg",
+      "description": "L'Explorateur"
+    },
+    {
+      "id": "19",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Caitlyn",
+      "stats": {
+        "ad": 66,
+        "ap": 0,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 530,
+        "vitesse_attaque": 0.656,
+        "crit": 0.25
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "caitlyn.jpg",
+      "description": "La Tireuse d'Élite"
+    },
+    {
+      "id": "20",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Miss Fortune",
+      "stats": {
+        "ad": 64,
+        "ap": 0,
+        "armure": 28,
+        "armure_magique": 30,
+        "hp": 600,
+        "vitesse_attaque": 0.666,
+        "crit": 0.25
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "missfortune.jpg",
+      "description": "La Reine des Pistes"
+    },
+    {
+      "id": "21",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Lulu",
+      "stats": {
+        "ad": 49,
+        "ap": 60,
+        "armure": 30,
+        "armure_magique": 45,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "lulu.jpg",
+      "description": "La Fée de l'Enchantement"
+    },
+    {
+      "id": "22",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Nami",
+      "stats": {
+        "ad": 50,
+        "ap": 60,
+        "armure": 30,
+        "armure_magique": 40,
+        "hp": 510,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nami.jpg",
+      "description": "La Sirène des Vagues"
+    },
+    {
+      "id": "23",
+      "role": "support",
+      "type": [
+        "Support",
+        "Tank"
+      ],
+      "name": "Leona",
+      "stats": {
+        "ad": 60,
+        "ap": 0,
+        "armure": 50,
+        "armure_magique": 30,
+        "hp": 580,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "leona.jpg",
+      "description": "L'Aube Radieuse"
+    },
+    {
+      "id": "24",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Janna",
+      "stats": {
+        "ad": 50,
+        "ap": 70,
+        "armure": 30,
+        "armure_magique": 40,
+        "hp": 530,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "janna.jpg",
+      "description": "La Tempête Magique"
+    },
+    {
+      "id": "25",
+      "role": "support",
+      "type": [
+        "Support",
+        "Tank"
+      ],
+      "name": "Alistar",
+      "stats": {
+        "ad": 60,
+        "ap": 0,
+        "armure": 40,
+        "armure_magique": 30,
+        "hp": 630,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "alistar.jpg",
+      "description": "Le Taureau de Demacia"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "nom": "Force de la Trinité",
+      "stats": {
+        "ad": 35,
+        "hp": 300,
+        "vitesse_attaque": 0.33
+      }
+    },
+    {
+      "id": "2",
+      "nom": "Gage de Sterak",
+      "stats": {
+        "ad": 50,
+        "hp": 400
+      }
+    },
+    {
+      "id": "3",
+      "nom": "Lame d'infini",
+      "stats": {
+        "ad": 70,
+        "crit": 0.2
+      }
+    },
+    {
+      "id": "4",
+      "nom": "Écho de Luden",
+      "stats": {
+        "ap": 90
+      }
+    },
+    {
+      "id": "5",
+      "nom": "Présage de Randuin",
+      "stats": {
+        "armure": 80,
+        "hp": 400
+      }
+    },
+    {
+      "id": "6",
+      "nom": "Bâton du Vide",
+      "stats": {
+        "ap": 65
+      }
+    },
+    {
+      "id": "7",
+      "nom": "Arc courbe",
+      "stats": {
+        "ad": 40,
+        "vitesse_attaque": 0.45
+      }
+    },
+    {
+      "id": "8",
+      "nom": "Warmog",
+      "stats": {
+        "hp": 800
+      }
+    },
+    {
+      "id": "9",
+      "nom": "Angoisse de Liandry",
+      "stats": {
+        "ap": 75,
+        "hp": 250
+      }
+    },
+    {
+      "id": "10",
+      "nom": "Voile de Banshee",
+      "stats": {
+        "armure": 60,
+        "armure_magique": 45,
+        "hp": 400
+      }
+    },
+    {
+      "id": "11",
+      "nom": "Sablier de Zhonya",
+      "stats": {
+        "ap": 75,
+        "armure": 45
+      }
+    },
+    {
+      "id": "12",
+      "nom": "Écho de Luden",
+      "stats": {
+        "ap": 90
+      }
+    },
+    {
+      "id": "13",
+      "nom": "Lame d'infini",
+      "stats": {
+        "ad": 70,
+        "crit": 0.25
+      }
+    },
+    {
+      "id": "14",
+      "nom": "Cœur gelé",
+      "stats": {
+        "ad": 60,
+        "hp": 500
+      }
+    },
+    {
+      "id": "15",
+      "nom": "Sceptre de Rylai",
+      "stats": {
+        "ap": 80,
+        "hp": 400
+      }
+    },
+    {
+      "id": "16",
+      "nom": "Danseur fantôme",
+      "stats": {
+        "ad": 45,
+        "crit": 0.3,
+        "vitesse_attaque": 0.45
+      }
+    }
+  ]
+}

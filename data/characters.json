@@ -74,7 +74,7 @@
       "id": "4",
       "role": "top",
       "type": [
-        "Dueliste"
+        "Duelist"
       ],
       "name": "Fiora",
       "stats": {
@@ -116,8 +116,7 @@
       "id": "6",
       "role": "jungle",
       "type": [
-        "Assassin",
-        "Tank"
+        "Bruiser"
       ],
       "name": "Lee Sin",
       "stats": {
@@ -159,7 +158,6 @@
       "id": "8",
       "role": "jungle",
       "type": [
-        "Mage",
         "Assassin"
       ],
       "name": "Evelynn",
@@ -202,8 +200,8 @@
       "id": "10",
       "role": "jungle",
       "type": [
-        "Mage",
-        "Assassin"
+        "Assassin",
+        "Mage"
       ],
       "name": "Nidalee",
       "stats": {
@@ -224,7 +222,8 @@
       "id": "11",
       "role": "mid",
       "type": [
-        "Mage"
+        "Mage",
+        "Assassin"
       ],
       "name": "Ahri",
       "stats": {
@@ -315,7 +314,8 @@
       "id": "15",
       "role": "mid",
       "type": [
-        "Mage"
+        "Mage",
+        "Assassin"
       ],
       "name": "Kassadin",
       "stats": {
@@ -463,8 +463,7 @@
       "id": "22",
       "role": "support",
       "type": [
-        "Support",
-        "Mage"
+        "Support"
       ],
       "name": "Nami",
       "stats": {
@@ -485,8 +484,8 @@
       "id": "23",
       "role": "support",
       "type": [
-        "Support",
-        "Tank"
+        "Tank",
+        "Support"
       ],
       "name": "Leona",
       "stats": {
@@ -507,8 +506,7 @@
       "id": "24",
       "role": "support",
       "type": [
-        "Support",
-        "Mage"
+        "Support"
       ],
       "name": "Janna",
       "stats": {
@@ -529,8 +527,8 @@
       "id": "25",
       "role": "support",
       "type": [
-        "Support",
-        "Tank"
+        "Tank",
+        "Support"
       ],
       "name": "Alistar",
       "stats": {
@@ -546,6 +544,3020 @@
       "favoriteItems": [],
       "image": "alistar.jpg",
       "description": "Le Taureau de Demacia"
+    },
+    {
+      "id": "26",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Aatrox",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "aatrox.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "27",
+      "role": "mid",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Akshan",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "akshan.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "28",
+      "role": "jungle",
+      "type": [
+        "Tank",
+        "Mage"
+      ],
+      "name": "Amumu",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "amumu.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "29",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Anivia",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "anivia.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "30",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Annie",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "annie.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "31",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Aphelios",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "aphelios.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "32",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Ashe",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ashe.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "33",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Aurelion Sol",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "aurelionsol.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "34",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Azir",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "azir.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "35",
+      "role": "support",
+      "type": [
+        "Support"
+      ],
+      "name": "Bard",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "bard.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "36",
+      "role": "jungle",
+      "type": [
+        "Fighter"
+      ],
+      "name": "Bel'Veth",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "belveth.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "37",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Blitzcrank",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "blitzcrank.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "38",
+      "role": "support",
+      "type": [
+        "Mage",
+        "Support"
+      ],
+      "name": "Brand",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "brand.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "39",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Braum",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "braum.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "40",
+      "role": "jungle",
+      "type": [
+        "Fighter"
+      ],
+      "name": "Briar",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "briar.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "41",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Cassiopeia",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "cassiopeia.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "42",
+      "role": "top",
+      "type": [
+        "Tank",
+        "Mage"
+      ],
+      "name": "Cho'Gath",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "chogath.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "43",
+      "role": "mid",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Corki",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "corki.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "44",
+      "role": "jungle",
+      "type": [
+        "Assassin",
+        "Mage"
+      ],
+      "name": "Diana",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "diana.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "45",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Dr. Mundo",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "drmundo.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "46",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Draven",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "draven.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "47",
+      "role": "jungle",
+      "type": [
+        "Assassin",
+        "Mage"
+      ],
+      "name": "Ekko",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ekko.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "48",
+      "role": "jungle",
+      "type": [
+        "Mage",
+        "Assassin"
+      ],
+      "name": "Elise",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "elise.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "49",
+      "role": "jungle",
+      "type": [
+        "Mage"
+      ],
+      "name": "Fiddlesticks",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "fiddlesticks.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "50",
+      "role": "mid",
+      "type": [
+        "Assassin",
+        "Mage"
+      ],
+      "name": "Fizz",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "fizz.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "51",
+      "role": "mid",
+      "type": [
+        "Tank",
+        "Mage"
+      ],
+      "name": "Galio",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "galio.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "52",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Gangplank",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "gangplank.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "53",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Gnar",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "gnar.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "54",
+      "role": "jungle",
+      "type": [
+        "Tank",
+        "Mage"
+      ],
+      "name": "Gragas",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "gragas.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "55",
+      "role": "jungle",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Graves",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "graves.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "56",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Gwen",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "gwen.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "57",
+      "role": "jungle",
+      "type": [
+        "Tank",
+        "Fighter"
+      ],
+      "name": "Hecarim",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "hecarim.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "58",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Heimerdinger",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "heimerdinger.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "59",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Illaoi",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "illaoi.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "60",
+      "role": "top",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Irelia",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "irelia.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "61",
+      "role": "jungle",
+      "type": [
+        "Support"
+      ],
+      "name": "Ivern",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ivern.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "62",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Jarvan IV",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "jarvaniv.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "63",
+      "role": "top",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Jayce",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "jayce.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "64",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Jinx",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "jinx.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "65",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Kalista",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kalista.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "66",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Karma",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "karma.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "67",
+      "role": "jungle",
+      "type": [
+        "Mage"
+      ],
+      "name": "Karthus",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "karthus.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "68",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Katarina",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "katarina.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "69",
+      "role": "top",
+      "type": [
+        "Fighter",
+        "Mage"
+      ],
+      "name": "Kayle",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kayle.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "70",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Kayn",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kayn.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "71",
+      "role": "top",
+      "type": [
+        "Mage"
+      ],
+      "name": "Kennen",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kennen.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "72",
+      "role": "jungle",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Kindred",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kindred.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "73",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Kled",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kled.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "74",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Kog'Maw",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "kogmaw.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "75",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "LeBlanc",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "leblanc.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "76",
+      "role": "jungle",
+      "type": [
+        "Mage"
+      ],
+      "name": "Lillia",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "lillia.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "77",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Lissandra",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "lissandra.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "78",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Lucian",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "lucian.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "79",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Lux",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "lux.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "80",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Malphite",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "malphite.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "81",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Malzahar",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "malzahar.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "82",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Maokai",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "maokai.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "83",
+      "role": "jungle",
+      "type": [
+        "Fighter"
+      ],
+      "name": "Master Yi",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "masteryi.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "84",
+      "role": "support",
+      "type": [
+        "Support"
+      ],
+      "name": "Milio",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "milio.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "85",
+      "role": "top",
+      "type": [
+        "Tank",
+        "Mage"
+      ],
+      "name": "Mordekaiser",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "mordekaiser.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "86",
+      "role": "support",
+      "type": [
+        "Mage",
+        "Support"
+      ],
+      "name": "Morgana",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "morgana.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "87",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Naafiri",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "naafiri.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "88",
+      "role": "top",
+      "type": [
+        "Tank",
+        "Bruiser"
+      ],
+      "name": "Nasus",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nasus.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "89",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Nautilus",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nautilus.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "90",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Neeko",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "neeko.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "91",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Nilah",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nilah.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "92",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Nocturne",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nocturne.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "93",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Nunu & Willump",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "nunu.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "94",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Olaf",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "olaf.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "95",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Ornn",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ornn.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "96",
+      "role": "top",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Pantheon",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "pantheon.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "97",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Poppy",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "poppy.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "98",
+      "role": "support",
+      "type": [
+        "Assassin",
+        "Support"
+      ],
+      "name": "Pyke",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "pyke.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "99",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Qiyana",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "qiyana.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "100",
+      "role": "top",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Quinn",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "quinn.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "101",
+      "role": "support",
+      "type": [
+        "Support"
+      ],
+      "name": "Rakan",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "rakan.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "102",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Rammus",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "rammus.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "103",
+      "role": "jungle",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Rek'Sai",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "reksai.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "104",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Rell",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "rell.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "105",
+      "role": "support",
+      "type": [
+        "Support"
+      ],
+      "name": "Renata Glasc",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "renata.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "106",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Renekton",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "renekton.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "107",
+      "role": "top",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Riven",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "riven.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "108",
+      "role": "top",
+      "type": [
+        "Mage"
+      ],
+      "name": "Rumble",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "rumble.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "109",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Ryze",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ryze.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "110",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Samira",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "samira.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "111",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Sejuani",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sejuani.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "112",
+      "role": "support",
+      "type": [
+        "Marksman",
+        "Support"
+      ],
+      "name": "Senna",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "senna.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "113",
+      "role": "support",
+      "type": [
+        "Mage",
+        "Support"
+      ],
+      "name": "Seraphine",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "seraphine.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "114",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Sett",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sett.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "115",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Shaco",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "shaco.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "116",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Shen",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "shen.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "117",
+      "role": "jungle",
+      "type": [
+        "Tank",
+        "Fighter"
+      ],
+      "name": "Shyvana",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "shyvana.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "118",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Singed",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "singed.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "119",
+      "role": "top",
+      "type": [
+        "Tank"
+      ],
+      "name": "Sion",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sion.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "120",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Sivir",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sivir.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "121",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Skarner",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "skarner.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "122",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Sona",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sona.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "123",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Soraka",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "soraka.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "124",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Swain",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "swain.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "125",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Sylas",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "sylas.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "126",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Syndra",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "syndra.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "127",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Tahm Kench",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "tahmkench.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "128",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Taliyah",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "taliyah.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "129",
+      "role": "mid",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Talon",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "talon.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "130",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Taric",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "taric.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "131",
+      "role": "top",
+      "type": [
+        "Marksman"
+      ],
+      "name": "Teemo",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "teemo.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "132",
+      "role": "support",
+      "type": [
+        "Tank",
+        "Support"
+      ],
+      "name": "Thresh",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "thresh.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "133",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Tristana",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "tristana.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "134",
+      "role": "jungle",
+      "type": [
+        "Tank",
+        "Fighter"
+      ],
+      "name": "Trundle",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "trundle.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "135",
+      "role": "top",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Tryndamere",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "tryndamere.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "136",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Twisted Fate",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "twistedfate.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "137",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Twitch",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "twitch.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "138",
+      "role": "jungle",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Udyr",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "udyr.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "139",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Urgot",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "urgot.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "140",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Varus",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "varus.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "141",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Vayne",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "vayne.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "142",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Veigar",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "veigar.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "143",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Vel'Koz",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "velkoz.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "144",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Vex",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "vex.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "145",
+      "role": "jungle",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Vi",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "vi.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "146",
+      "role": "jungle",
+      "type": [
+        "Assassin"
+      ],
+      "name": "Viego",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "viego.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "147",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Viktor",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "viktor.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "148",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Vladimir",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "vladimir.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "149",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Volibear",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "volibear.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "150",
+      "role": "jungle",
+      "type": [
+        "Fighter"
+      ],
+      "name": "Warwick",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "warwick.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "151",
+      "role": "jungle",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Wukong",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "wukong.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "152",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Xayah",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "xayah.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "153",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Xerath",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "xerath.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "154",
+      "role": "jungle",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Xin Zhao",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "xinzhao.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "155",
+      "role": "mid",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Yasuo",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "yasuo.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "156",
+      "role": "mid",
+      "type": [
+        "Duelist"
+      ],
+      "name": "Yone",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "yone.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "157",
+      "role": "top",
+      "type": [
+        "Bruiser"
+      ],
+      "name": "Yorick",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "yorick.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "158",
+      "role": "support",
+      "type": [
+        "Support"
+      ],
+      "name": "Yuumi",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "yuumi.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "159",
+      "role": "jungle",
+      "type": [
+        "Tank"
+      ],
+      "name": "Zac",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zac.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "160",
+      "role": "bot",
+      "type": [
+        "ADC"
+      ],
+      "name": "Zeri",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zeri.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "161",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Ziggs",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "ziggs.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "162",
+      "role": "support",
+      "type": [
+        "Support",
+        "Mage"
+      ],
+      "name": "Zilean",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zilean.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "163",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Zoe",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zoe.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "164",
+      "role": "support",
+      "type": [
+        "Mage",
+        "Support"
+      ],
+      "name": "Zyra",
+      "stats": {
+        "ad": 50,
+        "ap": 50,
+        "armure": 30,
+        "armure_magique": 30,
+        "hp": 500,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "zyra.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "165",
+      "role": "mid",
+      "type": [
+        "Mage",
+        "Assassin"
+      ],
+      "name": "Aurora",
+      "stats": {
+        "ad": 53,
+        "ap": 53,
+        "armure": 23,
+        "armure_magique": 30,
+        "hp": 607,
+        "vitesse_attaque": 0.668,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "aurora.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "166",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Hwei",
+      "stats": {
+        "ad": 50,
+        "ap": 54,
+        "armure": 21,
+        "armure_magique": 30,
+        "hp": 580,
+        "vitesse_attaque": 0.69,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "hwei.jpg",
+      "description": "Champion ajouté automatiquement"
+    },
+    {
+      "id": "167",
+      "role": "mid",
+      "type": [
+        "Mage"
+      ],
+      "name": "Mel",
+      "stats": {
+        "ad": 50,
+        "ap": 54,
+        "armure": 21,
+        "armure_magique": 30,
+        "hp": 600,
+        "vitesse_attaque": 0.625,
+        "crit": 0
+      },
+      "items": [],
+      "favoriteItems": [],
+      "image": "mel.jpg",
+      "description": "Champion ajouté automatiquement"
     }
   ],
   "items": [
