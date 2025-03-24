@@ -299,7 +299,14 @@
         "vitesse_attaque": 0.658,
         "crit": 0
       },
-      "items": [],
+      "items": [
+        4,
+        11,
+        6,
+        15,
+        9,
+        5
+      ],
       "favoriteItems": [],
       "image": "orianna.jpg",
       "description": "La Dame de Fer"

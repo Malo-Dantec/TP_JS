@@ -9,7 +9,7 @@ export function debounce(func, wait) {
 export function updateStatsDisplay(stats) {
     return Object.entries(stats).map(([key, value]) => `
         <div class="stat-item">
-            <span class="stat-name">${key.toUpperCase()}</span>
+            <img src="app/images/stats/${key}.png" alt="${key}" class="stat-icon">
             <span class="stat-value">${value}</span>
         </div>
     `).join('');
