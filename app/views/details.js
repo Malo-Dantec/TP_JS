@@ -7,18 +7,19 @@ const Details = {
         const id = params.get('id');
         
         if (!id) return '<div class="error">Aucun champion sélectionné</div>';
-
+    
         try {
             const [champion, items] = await Promise.all([
                 Provider.fetchChampion(id),
                 Provider.fetchItems()
             ]);
-
+    
             if (!champion) return '<div class="error">Champion introuvable</div>';
-
-            const favorites = JSON.parse(localStorage.getItem('itemFavorites')) || {};
+    
+            // Corrigé: ajout de guillemets autour des valeurs par défaut
+            const favorites = JSON.parse(localStorage.getItem('itemFavorites') || '{}');
             const savedKits = await Provider.getChampionKits(champion.id);
-
+    
             return `
                 <div class="champion-detail">
                     <a href="#listing" class="back-button">← Retour</a>
@@ -33,7 +34,7 @@ const Details = {
                             <h1>
                                 ${champion.name}
                                 <button class="favorite-detail" data-id="${champion.id}">
-                                    ${(JSON.parse(localStorage.getItem('favorites') || []).includes(champion.id) ? '★' : '☆')}
+                                    ${(JSON.parse(localStorage.getItem('favorites') || '[]')).includes(champion.id) ? '★' : '☆'}
                                 </button>
                             </h1>
                             <div class="champion-meta">
