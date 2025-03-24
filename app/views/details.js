@@ -15,6 +15,7 @@ const Details = {
             ]);
     
             if (!champion) return '<div class="error">Champion introuvable</div>';
+            const currentRating = await Provider.getChampionRating(champion.id);
     
             // Corrigé: ajout de guillemets autour des valeurs par défaut
             const favorites = JSON.parse(localStorage.getItem('itemFavorites') || '{}');
@@ -37,6 +38,19 @@ const Details = {
                                     ${(JSON.parse(localStorage.getItem('favorites') || '[]')).includes(champion.id) ? '★' : '☆'}
                                 </button>
                             </h1>
+                            <div class="champion-rating">
+                                <h3>Notez ce champion</h3>
+                                <div class="rating-stars">
+                                    ${[1, 2, 3, 4, 5].map(star => `
+                                        <span class="star ${star <= currentRating ? 'filled' : ''}" 
+                                            data-rating="${star}"
+                                            title="Noter ${star} étoile${star > 1 ? 's' : ''}">
+                                            ★
+                                        </span>
+                                    `).join('')}
+                                </div>
+                                <small>${currentRating ? `Votre note : ${currentRating}/5` : 'Non noté'}</small>
+                            </div>
                             <div class="champion-meta">
                                 <span class="role">${champion.role}</span>
                                 <span class="type">${champion.type.join(', ')}</span>
@@ -128,6 +142,24 @@ const Details = {
             }
             return acc;
         }, baseStats);
+    },
+
+    calculateRating(championId) {
+        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
+        return ratings[championId] || 0;
+    },
+    
+    async handleRatingClick(e) {
+        const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+        const newRating = parseInt(e.target.dataset.rating);
+        
+        if (!championId || isNaN(newRating)) return;
+    
+        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
+        ratings[championId] = newRating;
+        localStorage.setItem('championRatings', JSON.stringify(ratings));
+        
+        Router.loadRoute();
     },
     
     refreshStats() {

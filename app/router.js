@@ -12,12 +12,23 @@ const routes = {
 class Router {
     static async loadRoute() {
         const [hash, query] = window.location.hash.split('?');
-        const params = new URLSearchParams(query);
+        const params = new URLSearchParams(query); // Définit params ici
         const currentRoute = routes[hash] || Listing;
-        const currentPage = parseInt(params.get('page')) || 1; // Récupération du paramètre page
+        const currentPage = parseInt(params.get('page')) || 1;
         
-        document.getElementById('content').innerHTML = await currentRoute.render(currentPage); // Passage du paramètre
+        document.getElementById('content').innerHTML = await currentRoute.render(currentPage);
         this.addEventListeners();
+        
+        // Focus sur la recherche si paramètre existe
+        if (params.has('search')) {
+            const searchInput = document.getElementById('search');
+            if (searchInput) {
+                searchInput.focus();
+                // Optionnel : placer le curseur à la fin
+                const searchTerm = params.get('search');
+                searchInput.setSelectionRange(searchTerm.length, searchTerm.length);
+            }
+        }
     }
 
     static addEventListeners() {
@@ -35,11 +46,45 @@ class Router {
         // Gestion recherche
         const searchInput = document.getElementById('search');
         if (searchInput) {
+            // Récupère les paramètres actuels
+            const currentHashParams = new URLSearchParams(window.location.hash.split('?')[1] || '');
+            
+            // Focus automatique si recherche existante au chargement
+            if (currentHashParams.has('search')) {
+                searchInput.focus();
+            }
+
             searchInput.addEventListener('input', debounce((e) => {
                 const term = e.target.value;
-                window.location.hash = `#listing?search=${term}`;
+                const newParams = new URLSearchParams(window.location.hash.split('?')[1] || '');
+                
+                if (term) {
+                    newParams.set('search', term);
+                } else {
+                    newParams.delete('search');
+                }
+                
+                newParams.delete('page');
+                window.location.hash = `#listing?${newParams.toString()}`;
+                
+                // Maintient le focus après le délai
+                requestAnimationFrame(() => {
+                    searchInput.focus();
+                    // Place le curseur à la fin
+                    searchInput.setSelectionRange(term.length, term.length);
+                });
             }, 300));
         }
+
+        // Gestion des notes
+        document.querySelectorAll('.star').forEach(star => {
+            star.addEventListener('click', async (e) => {
+                const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
+                const rating = parseInt(e.target.dataset.rating);
+                await Provider.saveChampionRating(championId, rating);
+                Router.loadRoute();
+            });
+        });
 
         // Gestion de l'ajout d'item
         document.querySelector('.add-item-button')?.addEventListener('click', async () => {

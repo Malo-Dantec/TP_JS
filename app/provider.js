@@ -22,6 +22,18 @@ class Provider {
         }
     }
     
+    static async saveChampionRating(championId, rating) {
+        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
+        ratings[championId] = rating;
+        localStorage.setItem('championRatings', JSON.stringify(ratings));
+        return ratings;
+    }
+    
+    static async getChampionRating(championId) {
+        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
+        return ratings[championId] || 0;
+    }
+    
     static async updateChampionItems(id, items) {
         try {
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {
