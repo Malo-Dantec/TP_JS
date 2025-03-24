@@ -48,7 +48,7 @@ const Listing = {
             <div class="champions-grid">
                 ${paginated.map(c => `
                     <div class="champion-card" data-id="${c.id}">
-                        <img src="app/images/${c.image}" alt="${c.name}" loading="lazy">
+                        <img src="app/images/champions/${c.image}" alt="${c.name}" loading="lazy">
                         <div class="info">
                             <h3>${c.name}</h3>
                         </div>
