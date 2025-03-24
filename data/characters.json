@@ -7,6 +7,7 @@
         "Bruiser"
       ],
       "name": "Darius",
+      "rating": 0,
       "stats": {
         "ad": 64,
         "ap": 0,
@@ -28,6 +29,7 @@
         "Bruiser"
       ],
       "name": "Garen",
+      "rating": 0,
       "stats": {
         "ad": 66,
         "ap": 0,
@@ -49,6 +51,7 @@
         "Bruiser"
       ],
       "name": "Camille",
+      "rating": 0,
       "stats": {
         "ad": 62,
         "ap": 0,
@@ -58,14 +61,7 @@
         "vitesse_attaque": 0.644,
         "crit": 0
       },
-      "items": [
-        1,
-        8,
-        14,
-        16,
-        3,
-        4
-      ],
+      "items": [],
       "favoriteItems": [],
       "image": "camille.jpg",
       "description": "La Piste de la Caméléon"
@@ -77,6 +73,7 @@
         "Duelist"
       ],
       "name": "Fiora",
+      "rating": 0,
       "stats": {
         "ad": 68,
         "ap": 0,
@@ -98,6 +95,7 @@
         "Bruiser"
       ],
       "name": "Jax",
+      "rating": 0,
       "stats": {
         "ad": 68,
         "ap": 0,
@@ -119,6 +117,7 @@
         "Bruiser"
       ],
       "name": "Lee Sin",
+      "rating": 0,
       "stats": {
         "ad": 70,
         "ap": 0,
@@ -140,6 +139,7 @@
         "Assassin"
       ],
       "name": "Kha'Zix",
+      "rating": 0,
       "stats": {
         "ad": 63,
         "ap": 0,
@@ -161,6 +161,7 @@
         "Assassin"
       ],
       "name": "Evelynn",
+      "rating": 0,
       "stats": {
         "ad": 61,
         "ap": 60,
@@ -182,6 +183,7 @@
         "Assassin"
       ],
       "name": "Rengar",
+      "rating": 0,
       "stats": {
         "ad": 68,
         "ap": 0,
@@ -204,6 +206,7 @@
         "Mage"
       ],
       "name": "Nidalee",
+      "rating": 0,
       "stats": {
         "ad": 61,
         "ap": 65,
@@ -226,6 +229,7 @@
         "Assassin"
       ],
       "name": "Ahri",
+      "rating": 0,
       "stats": {
         "ad": 53,
         "ap": 55,
@@ -247,6 +251,7 @@
         "Assassin"
       ],
       "name": "Zed",
+      "rating": 0,
       "stats": {
         "ad": 63,
         "ap": 0,
@@ -268,6 +273,7 @@
         "Assassin"
       ],
       "name": "Akali",
+      "rating": 0,
       "stats": {
         "ad": 62,
         "ap": 70,
@@ -289,6 +295,7 @@
         "Mage"
       ],
       "name": "Orianna",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 75,
@@ -298,14 +305,7 @@
         "vitesse_attaque": 0.658,
         "crit": 0
       },
-      "items": [
-        4,
-        11,
-        6,
-        15,
-        9,
-        5
-      ],
+      "items": [],
       "favoriteItems": [],
       "image": "orianna.jpg",
       "description": "La Dame de Fer"
@@ -318,6 +318,7 @@
         "Assassin"
       ],
       "name": "Kassadin",
+      "rating": 0,
       "stats": {
         "ad": 58,
         "ap": 70,
@@ -339,6 +340,7 @@
         "ADC"
       ],
       "name": "Jhin",
+      "rating": 0,
       "stats": {
         "ad": 68,
         "ap": 0,
@@ -360,6 +362,7 @@
         "ADC"
       ],
       "name": "Kai'Sa",
+      "rating": 0,
       "stats": {
         "ad": 64,
         "ap": 0,
@@ -381,6 +384,7 @@
         "ADC"
       ],
       "name": "Ezreal",
+      "rating": 0,
       "stats": {
         "ad": 58,
         "ap": 0,
@@ -402,6 +406,7 @@
         "ADC"
       ],
       "name": "Caitlyn",
+      "rating": 0,
       "stats": {
         "ad": 66,
         "ap": 0,
@@ -423,6 +428,7 @@
         "ADC"
       ],
       "name": "Miss Fortune",
+      "rating": 0,
       "stats": {
         "ad": 64,
         "ap": 0,
@@ -445,6 +451,7 @@
         "Mage"
       ],
       "name": "Lulu",
+      "rating": 0,
       "stats": {
         "ad": 49,
         "ap": 60,
@@ -466,6 +473,7 @@
         "Support"
       ],
       "name": "Nami",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 60,
@@ -488,6 +496,7 @@
         "Support"
       ],
       "name": "Leona",
+      "rating": 0,
       "stats": {
         "ad": 60,
         "ap": 0,
@@ -509,6 +518,7 @@
         "Support"
       ],
       "name": "Janna",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 70,
@@ -531,6 +541,7 @@
         "Support"
       ],
       "name": "Alistar",
+      "rating": 0,
       "stats": {
         "ad": 60,
         "ap": 0,
@@ -552,6 +563,7 @@
         "Bruiser"
       ],
       "name": "Aatrox",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -573,6 +585,7 @@
         "Marksman"
       ],
       "name": "Akshan",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -595,6 +608,7 @@
         "Mage"
       ],
       "name": "Amumu",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -616,6 +630,7 @@
         "Mage"
       ],
       "name": "Anivia",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -637,6 +652,7 @@
         "Mage"
       ],
       "name": "Annie",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -658,6 +674,7 @@
         "ADC"
       ],
       "name": "Aphelios",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -679,6 +696,7 @@
         "ADC"
       ],
       "name": "Ashe",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -700,6 +718,7 @@
         "Mage"
       ],
       "name": "Aurelion Sol",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -721,6 +740,7 @@
         "Mage"
       ],
       "name": "Azir",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -742,6 +762,7 @@
         "Support"
       ],
       "name": "Bard",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -763,6 +784,7 @@
         "Fighter"
       ],
       "name": "Bel'Veth",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -785,6 +807,7 @@
         "Support"
       ],
       "name": "Blitzcrank",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -807,6 +830,7 @@
         "Support"
       ],
       "name": "Brand",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -829,6 +853,7 @@
         "Support"
       ],
       "name": "Braum",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -850,6 +875,7 @@
         "Fighter"
       ],
       "name": "Briar",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -871,6 +897,7 @@
         "Mage"
       ],
       "name": "Cassiopeia",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -893,6 +920,7 @@
         "Mage"
       ],
       "name": "Cho'Gath",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -914,6 +942,7 @@
         "Marksman"
       ],
       "name": "Corki",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -936,6 +965,7 @@
         "Mage"
       ],
       "name": "Diana",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -956,7 +986,8 @@
       "type": [
         "Tank"
       ],
-      "name": "Dr. Mundo",
+      "name": "Dr.Mundo",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -978,6 +1009,7 @@
         "ADC"
       ],
       "name": "Draven",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1000,6 +1032,7 @@
         "Mage"
       ],
       "name": "Ekko",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1022,6 +1055,7 @@
         "Assassin"
       ],
       "name": "Elise",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1043,6 +1077,7 @@
         "Mage"
       ],
       "name": "Fiddlesticks",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1065,6 +1100,7 @@
         "Mage"
       ],
       "name": "Fizz",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1087,6 +1123,7 @@
         "Mage"
       ],
       "name": "Galio",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1108,6 +1145,7 @@
         "Bruiser"
       ],
       "name": "Gangplank",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1129,6 +1167,7 @@
         "Bruiser"
       ],
       "name": "Gnar",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1151,6 +1190,7 @@
         "Mage"
       ],
       "name": "Gragas",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1172,6 +1212,7 @@
         "Marksman"
       ],
       "name": "Graves",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1193,6 +1234,7 @@
         "Bruiser"
       ],
       "name": "Gwen",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1215,6 +1257,7 @@
         "Fighter"
       ],
       "name": "Hecarim",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1236,6 +1279,7 @@
         "Mage"
       ],
       "name": "Heimerdinger",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1257,6 +1301,7 @@
         "Bruiser"
       ],
       "name": "Illaoi",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1278,6 +1323,7 @@
         "Duelist"
       ],
       "name": "Irelia",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1299,6 +1345,7 @@
         "Support"
       ],
       "name": "Ivern",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1320,6 +1367,7 @@
         "Tank"
       ],
       "name": "Jarvan IV",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1341,6 +1389,7 @@
         "Marksman"
       ],
       "name": "Jayce",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1362,6 +1411,7 @@
         "ADC"
       ],
       "name": "Jinx",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1383,6 +1433,7 @@
         "ADC"
       ],
       "name": "Kalista",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1405,6 +1456,7 @@
         "Mage"
       ],
       "name": "Karma",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1426,6 +1478,7 @@
         "Mage"
       ],
       "name": "Karthus",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1447,6 +1500,7 @@
         "Assassin"
       ],
       "name": "Katarina",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1469,6 +1523,7 @@
         "Mage"
       ],
       "name": "Kayle",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1490,6 +1545,7 @@
         "Assassin"
       ],
       "name": "Kayn",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1511,6 +1567,7 @@
         "Mage"
       ],
       "name": "Kennen",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1532,6 +1589,7 @@
         "Marksman"
       ],
       "name": "Kindred",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1553,6 +1611,7 @@
         "Bruiser"
       ],
       "name": "Kled",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1574,6 +1633,7 @@
         "ADC"
       ],
       "name": "Kog'Maw",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1595,6 +1655,7 @@
         "Assassin"
       ],
       "name": "LeBlanc",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1616,6 +1677,7 @@
         "Mage"
       ],
       "name": "Lillia",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1637,6 +1699,7 @@
         "Mage"
       ],
       "name": "Lissandra",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1658,6 +1721,7 @@
         "ADC"
       ],
       "name": "Lucian",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1679,6 +1743,7 @@
         "Mage"
       ],
       "name": "Lux",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1700,6 +1765,7 @@
         "Tank"
       ],
       "name": "Malphite",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1721,6 +1787,7 @@
         "Mage"
       ],
       "name": "Malzahar",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1742,6 +1809,7 @@
         "Tank"
       ],
       "name": "Maokai",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1763,6 +1831,7 @@
         "Fighter"
       ],
       "name": "Master Yi",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1784,6 +1853,7 @@
         "Support"
       ],
       "name": "Milio",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1806,6 +1876,7 @@
         "Mage"
       ],
       "name": "Mordekaiser",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1828,6 +1899,7 @@
         "Support"
       ],
       "name": "Morgana",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1849,6 +1921,7 @@
         "Assassin"
       ],
       "name": "Naafiri",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1871,6 +1944,7 @@
         "Bruiser"
       ],
       "name": "Nasus",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1893,6 +1967,7 @@
         "Support"
       ],
       "name": "Nautilus",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1914,6 +1989,7 @@
         "Mage"
       ],
       "name": "Neeko",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1935,6 +2011,7 @@
         "ADC"
       ],
       "name": "Nilah",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1956,6 +2033,7 @@
         "Assassin"
       ],
       "name": "Nocturne",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1977,6 +2055,7 @@
         "Tank"
       ],
       "name": "Nunu & Willump",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -1998,6 +2077,7 @@
         "Bruiser"
       ],
       "name": "Olaf",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2019,6 +2099,7 @@
         "Tank"
       ],
       "name": "Ornn",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2040,6 +2121,7 @@
         "Duelist"
       ],
       "name": "Pantheon",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2061,6 +2143,7 @@
         "Tank"
       ],
       "name": "Poppy",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2083,6 +2166,7 @@
         "Support"
       ],
       "name": "Pyke",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2104,6 +2188,7 @@
         "Assassin"
       ],
       "name": "Qiyana",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2125,6 +2210,7 @@
         "Marksman"
       ],
       "name": "Quinn",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2146,6 +2232,7 @@
         "Support"
       ],
       "name": "Rakan",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2167,6 +2254,7 @@
         "Tank"
       ],
       "name": "Rammus",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2188,6 +2276,7 @@
         "Bruiser"
       ],
       "name": "Rek'Sai",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2210,6 +2299,7 @@
         "Support"
       ],
       "name": "Rell",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2231,6 +2321,7 @@
         "Support"
       ],
       "name": "Renata Glasc",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2252,6 +2343,7 @@
         "Bruiser"
       ],
       "name": "Renekton",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2273,6 +2365,7 @@
         "Duelist"
       ],
       "name": "Riven",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2294,6 +2387,7 @@
         "Mage"
       ],
       "name": "Rumble",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2315,6 +2409,7 @@
         "Mage"
       ],
       "name": "Ryze",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2336,6 +2431,7 @@
         "ADC"
       ],
       "name": "Samira",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2357,6 +2453,7 @@
         "Tank"
       ],
       "name": "Sejuani",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2379,6 +2476,7 @@
         "Support"
       ],
       "name": "Senna",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2401,6 +2499,7 @@
         "Support"
       ],
       "name": "Seraphine",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2422,6 +2521,7 @@
         "Bruiser"
       ],
       "name": "Sett",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2443,6 +2543,7 @@
         "Assassin"
       ],
       "name": "Shaco",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2464,6 +2565,7 @@
         "Tank"
       ],
       "name": "Shen",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2486,6 +2588,7 @@
         "Fighter"
       ],
       "name": "Shyvana",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2507,6 +2610,7 @@
         "Tank"
       ],
       "name": "Singed",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2528,6 +2632,7 @@
         "Tank"
       ],
       "name": "Sion",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2549,6 +2654,7 @@
         "ADC"
       ],
       "name": "Sivir",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2570,6 +2676,7 @@
         "Tank"
       ],
       "name": "Skarner",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2592,6 +2699,7 @@
         "Mage"
       ],
       "name": "Sona",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2614,6 +2722,7 @@
         "Mage"
       ],
       "name": "Soraka",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2635,6 +2744,7 @@
         "Mage"
       ],
       "name": "Swain",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2656,6 +2766,7 @@
         "Mage"
       ],
       "name": "Sylas",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2677,6 +2788,7 @@
         "Mage"
       ],
       "name": "Syndra",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2699,6 +2811,7 @@
         "Support"
       ],
       "name": "Tahm Kench",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2720,6 +2833,7 @@
         "Mage"
       ],
       "name": "Taliyah",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2741,6 +2855,7 @@
         "Assassin"
       ],
       "name": "Talon",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2763,6 +2878,7 @@
         "Support"
       ],
       "name": "Taric",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2784,6 +2900,7 @@
         "Marksman"
       ],
       "name": "Teemo",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2806,6 +2923,7 @@
         "Support"
       ],
       "name": "Thresh",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2827,6 +2945,7 @@
         "ADC"
       ],
       "name": "Tristana",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2849,6 +2968,7 @@
         "Fighter"
       ],
       "name": "Trundle",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2870,6 +2990,7 @@
         "Duelist"
       ],
       "name": "Tryndamere",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2891,6 +3012,7 @@
         "Mage"
       ],
       "name": "Twisted Fate",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2912,6 +3034,7 @@
         "ADC"
       ],
       "name": "Twitch",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2933,6 +3056,7 @@
         "Bruiser"
       ],
       "name": "Udyr",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2954,6 +3078,7 @@
         "Bruiser"
       ],
       "name": "Urgot",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2975,6 +3100,7 @@
         "ADC"
       ],
       "name": "Varus",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -2996,6 +3122,7 @@
         "ADC"
       ],
       "name": "Vayne",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3017,6 +3144,7 @@
         "Mage"
       ],
       "name": "Veigar",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3038,6 +3166,7 @@
         "Mage"
       ],
       "name": "Vel'Koz",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3059,6 +3188,7 @@
         "Mage"
       ],
       "name": "Vex",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3080,6 +3210,7 @@
         "Bruiser"
       ],
       "name": "Vi",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3101,6 +3232,7 @@
         "Assassin"
       ],
       "name": "Viego",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3122,6 +3254,7 @@
         "Mage"
       ],
       "name": "Viktor",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3143,6 +3276,7 @@
         "Mage"
       ],
       "name": "Vladimir",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3164,6 +3298,7 @@
         "Bruiser"
       ],
       "name": "Volibear",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3185,6 +3320,7 @@
         "Fighter"
       ],
       "name": "Warwick",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3206,6 +3342,7 @@
         "Bruiser"
       ],
       "name": "Wukong",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3227,6 +3364,7 @@
         "ADC"
       ],
       "name": "Xayah",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3248,6 +3386,7 @@
         "Mage"
       ],
       "name": "Xerath",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3269,6 +3408,7 @@
         "Bruiser"
       ],
       "name": "Xin Zhao",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3290,6 +3430,7 @@
         "Duelist"
       ],
       "name": "Yasuo",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3311,6 +3452,7 @@
         "Duelist"
       ],
       "name": "Yone",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3332,6 +3474,7 @@
         "Bruiser"
       ],
       "name": "Yorick",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3353,6 +3496,7 @@
         "Support"
       ],
       "name": "Yuumi",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3374,6 +3518,7 @@
         "Tank"
       ],
       "name": "Zac",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3395,6 +3540,7 @@
         "ADC"
       ],
       "name": "Zeri",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3416,6 +3562,7 @@
         "Mage"
       ],
       "name": "Ziggs",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3438,6 +3585,7 @@
         "Mage"
       ],
       "name": "Zilean",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3459,6 +3607,7 @@
         "Mage"
       ],
       "name": "Zoe",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3481,6 +3630,7 @@
         "Support"
       ],
       "name": "Zyra",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 50,
@@ -3503,6 +3653,7 @@
         "Assassin"
       ],
       "name": "Aurora",
+      "rating": 0,
       "stats": {
         "ad": 53,
         "ap": 53,
@@ -3524,6 +3675,7 @@
         "Mage"
       ],
       "name": "Hwei",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 54,
@@ -3545,6 +3697,7 @@
         "Mage"
       ],
       "name": "Mel",
+      "rating": 0,
       "stats": {
         "ad": 50,
         "ap": 54,

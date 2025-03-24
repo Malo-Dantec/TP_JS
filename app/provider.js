@@ -23,17 +23,30 @@ class Provider {
     }
     
     static async saveChampionRating(championId, rating) {
-        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
-        ratings[championId] = rating;
-        localStorage.setItem('championRatings', JSON.stringify(ratings));
-        return ratings;
+        try {
+            const response = await fetch(`${CONFIG.ENDPOINT}/champions/${championId}`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ rating })
+            });
+            return await response.json();
+        } catch (error) {
+            console.error('Erreur sauvegarde note:', error);
+            return null;
+        }
     }
     
     static async getChampionRating(championId) {
-        const ratings = JSON.parse(localStorage.getItem('championRatings') || '{}');
-        return ratings[championId] || 0;
+        try {
+            const response = await fetch(`${CONFIG.ENDPOINT}/champions/${championId}`);
+            const champion = await response.json();
+            return champion.rating || 0;
+        } catch (error) {
+            console.error('Erreur récupération note:', error);
+            return 0;
+        }
     }
-    
+
     static async updateChampionItems(id, items) {
         try {
             const response = await fetch(`${CONFIG.ENDPOINT}/champions/${id}`, {

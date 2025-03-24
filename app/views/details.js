@@ -15,7 +15,7 @@ const Details = {
             ]);
     
             if (!champion) return '<div class="error">Champion introuvable</div>';
-            const currentRating = await Provider.getChampionRating(champion.id);
+            const currentRating = champion.rating || 0;
     
             // Corrigé: ajout de guillemets autour des valeurs par défaut
             const favorites = JSON.parse(localStorage.getItem('itemFavorites') || '{}');
