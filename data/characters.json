@@ -18,7 +18,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "darius.jpg",
       "description": "Le Maître de la guillotine"
     },
@@ -40,7 +39,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "garen.jpg",
       "description": "Le Pouvoir de Demacia"
     },
@@ -62,7 +60,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "camille.jpg",
       "description": "La Piste de la Caméléon"
     },
@@ -84,7 +81,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "fiora.jpg",
       "description": "La Maîtresse du Duelliste"
     },
@@ -106,7 +102,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "jax.jpg",
       "description": "Le Maître des Armes"
     },
@@ -128,7 +123,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "leesin.jpg",
       "description": "Le Moine Aveugle"
     },
@@ -150,7 +144,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "khazix.jpg",
       "description": "L'Assassin Invisible"
     },
@@ -172,7 +165,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "evelynn.jpg",
       "description": "La Démone de l'Ombre"
     },
@@ -194,7 +186,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "rengar.jpg",
       "description": "Le Chasseur Sauvage"
     },
@@ -217,7 +208,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nidalee.jpg",
       "description": "La Chasseresse du Désert"
     },
@@ -240,7 +230,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ahri.jpg",
       "description": "La Renarde à Neuf Queues"
     },
@@ -262,7 +251,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zed.jpg",
       "description": "L'Ombre de la Faucheuse"
     },
@@ -273,7 +261,7 @@
         "Assassin"
       ],
       "name": "Akali",
-      "rating": 5,
+      "rating": 0,
       "stats": {
         "ad": 62,
         "ap": 70,
@@ -283,10 +271,7 @@
         "vitesse_attaque": 0.625,
         "crit": 0
       },
-      "items": [
-        1
-      ],
-      "favoriteItems": [],
+      "items": [],
       "image": "akali.jpg",
       "description": "La Maître de l'Assassinat"
     },
@@ -308,7 +293,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "orianna.jpg",
       "description": "La Dame de Fer"
     },
@@ -331,7 +315,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kassadin.jpg",
       "description": "Le Chasseur d'Esprits"
     },
@@ -353,7 +336,6 @@
         "crit": 0.25
       },
       "items": [],
-      "favoriteItems": [],
       "image": "jhin.jpg",
       "description": "Le Virtuose"
     },
@@ -375,7 +357,6 @@
         "crit": 0.25
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kaisa.jpg",
       "description": "La Fille du Vide"
     },
@@ -397,7 +378,6 @@
         "crit": 0.2
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ezreal.jpg",
       "description": "L'Explorateur"
     },
@@ -419,7 +399,6 @@
         "crit": 0.25
       },
       "items": [],
-      "favoriteItems": [],
       "image": "caitlyn.jpg",
       "description": "La Tireuse d'Élite"
     },
@@ -441,7 +420,6 @@
         "crit": 0.25
       },
       "items": [],
-      "favoriteItems": [],
       "image": "missfortune.jpg",
       "description": "La Reine des Pistes"
     },
@@ -464,7 +442,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "lulu.jpg",
       "description": "La Fée de l'Enchantement"
     },
@@ -486,7 +463,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nami.jpg",
       "description": "La Sirène des Vagues"
     },
@@ -509,7 +485,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "leona.jpg",
       "description": "L'Aube Radieuse"
     },
@@ -531,7 +506,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "janna.jpg",
       "description": "La Tempête Magique"
     },
@@ -554,7 +528,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "alistar.jpg",
       "description": "Le Taureau de Demacia"
     },
@@ -576,7 +549,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "aatrox.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -598,7 +570,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "akshan.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -621,7 +592,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "amumu.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -643,7 +613,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "anivia.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -665,7 +634,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "annie.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -687,7 +655,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "aphelios.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -708,10 +675,7 @@
         "vitesse_attaque": 0.625,
         "crit": 0
       },
-      "items": [
-        1
-      ],
-      "favoriteItems": [],
+      "items": [],
       "image": "ashe.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -733,7 +697,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "aurelionsol.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -755,7 +718,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "azir.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -777,7 +739,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "bard.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -799,7 +760,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "belveth.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -822,7 +782,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "blitzcrank.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -845,7 +804,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "brand.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -868,7 +826,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "braum.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -890,7 +847,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "briar.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -912,7 +868,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "cassiopeia.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -935,7 +890,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "chogath.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -957,7 +911,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "corki.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -980,7 +933,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "diana.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1002,7 +954,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "drmundo.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1024,7 +975,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "draven.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1047,7 +997,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ekko.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1070,7 +1019,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "elise.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1092,7 +1040,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "fiddlesticks.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1115,7 +1062,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "fizz.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1138,7 +1084,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "galio.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1160,7 +1105,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "gangplank.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1182,7 +1126,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "gnar.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1205,7 +1148,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "gragas.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1227,7 +1169,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "graves.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1249,7 +1190,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "gwen.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1272,7 +1212,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "hecarim.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1294,7 +1233,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "heimerdinger.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1316,7 +1254,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "illaoi.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1338,7 +1275,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "irelia.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1360,7 +1296,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ivern.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1382,7 +1317,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "jarvaniv.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1404,7 +1338,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "jayce.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1426,7 +1359,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "jinx.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1448,7 +1380,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kalista.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1471,7 +1402,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "karma.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1493,7 +1423,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "karthus.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1515,7 +1444,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "katarina.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1538,7 +1466,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kayle.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1560,7 +1487,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kayn.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1582,7 +1508,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kennen.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1604,7 +1529,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kindred.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1626,7 +1550,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kled.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1648,7 +1571,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "kogmaw.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1670,7 +1592,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "leblanc.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1692,7 +1613,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "lillia.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1714,7 +1634,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "lissandra.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1736,7 +1655,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "lucian.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1758,7 +1676,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "lux.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1780,7 +1697,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "malphite.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1802,7 +1718,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "malzahar.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1824,7 +1739,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "maokai.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1846,7 +1760,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "masteryi.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1868,7 +1781,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "milio.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1891,7 +1803,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "mordekaiser.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1914,7 +1825,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "morgana.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1936,7 +1846,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "naafiri.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1959,7 +1868,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nasus.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -1982,7 +1890,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nautilus.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2004,7 +1911,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "neeko.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2026,7 +1932,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nilah.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2048,7 +1953,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nocturne.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2070,7 +1974,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "nunu.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2092,7 +1995,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "olaf.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2114,7 +2016,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ornn.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2136,7 +2037,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "pantheon.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2158,7 +2058,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "poppy.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2181,7 +2080,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "pyke.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2203,7 +2101,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "qiyana.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2225,7 +2122,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "quinn.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2247,7 +2143,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "rakan.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2269,7 +2164,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "rammus.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2291,7 +2185,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "reksai.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2314,7 +2207,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "rell.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2336,7 +2228,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "renata.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2358,7 +2249,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "renekton.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2380,7 +2270,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "riven.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2402,7 +2291,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "rumble.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2424,7 +2312,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ryze.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2446,7 +2333,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "samira.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2468,7 +2354,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sejuani.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2491,7 +2376,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "senna.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2514,7 +2398,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "seraphine.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2536,7 +2419,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sett.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2558,7 +2440,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "shaco.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2580,7 +2461,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "shen.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2603,7 +2483,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "shyvana.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2625,7 +2504,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "singed.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2647,7 +2525,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sion.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2669,7 +2546,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sivir.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2691,7 +2567,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "skarner.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2714,7 +2589,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sona.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2737,7 +2611,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "soraka.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2759,7 +2632,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "swain.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2781,7 +2653,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "sylas.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2803,7 +2674,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "syndra.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2826,7 +2696,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "tahmkench.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2848,7 +2717,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "taliyah.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2870,7 +2738,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "talon.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2893,7 +2760,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "taric.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2915,7 +2781,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "teemo.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2938,7 +2803,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "thresh.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2960,7 +2824,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "tristana.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -2983,7 +2846,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "trundle.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3005,7 +2867,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "tryndamere.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3027,7 +2888,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "twistedfate.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3049,7 +2909,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "twitch.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3071,7 +2930,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "udyr.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3093,7 +2951,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "urgot.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3115,7 +2972,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "varus.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3137,7 +2993,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "vayne.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3159,7 +3014,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "veigar.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3181,7 +3035,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "velkoz.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3203,7 +3056,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "vex.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3225,7 +3077,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "vi.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3247,7 +3098,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "viego.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3269,7 +3119,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "viktor.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3291,7 +3140,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "vladimir.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3313,7 +3161,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "volibear.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3335,7 +3182,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "warwick.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3357,7 +3203,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "wukong.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3379,7 +3224,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "xayah.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3401,7 +3245,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "xerath.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3423,7 +3266,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "xinzhao.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3445,7 +3287,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "yasuo.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3467,7 +3308,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "yone.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3489,7 +3329,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "yorick.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3511,7 +3350,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "yuumi.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3533,7 +3371,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zac.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3555,7 +3392,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zeri.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3577,7 +3413,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "ziggs.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3600,7 +3435,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zilean.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3622,7 +3456,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zoe.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3645,7 +3478,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "zyra.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3668,7 +3500,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "aurora.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3690,7 +3521,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "hwei.jpg",
       "description": "Champion ajouté automatiquement"
     },
@@ -3712,7 +3542,6 @@
         "crit": 0
       },
       "items": [],
-      "favoriteItems": [],
       "image": "mel.jpg",
       "description": "Champion ajouté automatiquement"
     }
