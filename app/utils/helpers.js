@@ -10,7 +10,7 @@ export function updateStatsDisplay(stats) {
     return Object.entries(stats).map(([key, value]) => `
         <div class="stat-item">
             <img src="app/images/stats/${key}.png" alt="${key}" class="stat-icon">
-            <span class="stat-value">${value}</span>
+            <span class="stat-value">${value.toFixed(2)}</span>
         </div>
     `).join('');
 }

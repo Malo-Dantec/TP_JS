@@ -273,7 +273,7 @@
         "Assassin"
       ],
       "name": "Akali",
-      "rating": 0,
+      "rating": 5,
       "stats": {
         "ad": 62,
         "ap": 70,
@@ -283,7 +283,9 @@
         "vitesse_attaque": 0.625,
         "crit": 0
       },
-      "items": [],
+      "items": [
+        1
+      ],
       "favoriteItems": [],
       "image": "akali.jpg",
       "description": "La Maître de l'Assassinat"
@@ -706,7 +708,9 @@
         "vitesse_attaque": 0.625,
         "crit": 0
       },
-      "items": [],
+      "items": [
+        1
+      ],
       "favoriteItems": [],
       "image": "ashe.jpg",
       "description": "Champion ajouté automatiquement"
@@ -3736,65 +3740,69 @@
       "nom": "Lame d'infini",
       "stats": {
         "ad": 70,
-        "crit": 0.2
+        "crit": 0.25
       }
     },
     {
       "id": "4",
-      "nom": "Écho de Luden",
+      "nom": "Éclipse",
       "stats": {
-        "ap": 90
+        "ad": 60
       }
     },
     {
       "id": "5",
-      "nom": "Présage de Randuin",
+      "nom": "Éviscérateur",
       "stats": {
-        "armure": 80,
-        "hp": 400
+        "ad": 55,
+        "hp": 300
       }
     },
     {
       "id": "6",
-      "nom": "Bâton du Vide",
+      "nom": "Arc-bouclier immortel",
       "stats": {
-        "ap": 65
+        "ad": 50
       }
     },
     {
       "id": "7",
-      "nom": "Arc courbe",
+      "nom": "Tueur de Kraken",
       "stats": {
-        "ad": 40,
-        "vitesse_attaque": 0.45
+        "ad": 65,
+        "vitesse_attaque": 0.25
       }
     },
     {
       "id": "8",
-      "nom": "Warmog",
+      "nom": "Mandat impérial",
       "stats": {
-        "hp": 800
+        "ap": 40
       }
     },
     {
       "id": "9",
-      "nom": "Angoisse de Liandry",
+      "nom": "Fimbulvetr",
       "stats": {
-        "ap": 75,
-        "hp": 250
-      }
-    },
-    {
-      "id": "10",
-      "nom": "Voile de Banshee",
-      "stats": {
-        "armure": 60,
-        "armure_magique": 45,
         "hp": 400
       }
     },
     {
+      "id": "10",
+      "nom": "Chant de guerre de Shurelya",
+      "stats": {
+        "ap": 40
+      }
+    },
+    {
       "id": "11",
+      "nom": "Croc de serpent",
+      "stats": {
+        "ad": 55
+      }
+    },
+    {
+      "id": "12",
       "nom": "Sablier de Zhonya",
       "stats": {
         "ap": 75,
@@ -3802,30 +3810,37 @@
       }
     },
     {
-      "id": "12",
-      "nom": "Écho de Luden",
-      "stats": {
-        "ap": 90
-      }
-    },
-    {
       "id": "13",
-      "nom": "Lame d'infini",
+      "nom": "Bâton du Vide",
       "stats": {
-        "ad": 70,
-        "crit": 0.25
+        "ap": 65
       }
     },
     {
       "id": "14",
-      "nom": "Cœur gelé",
+      "nom": "Morellonomicon",
       "stats": {
-        "ad": 60,
-        "hp": 500
+        "ap": 80,
+        "hp": 250
       }
     },
     {
       "id": "15",
+      "nom": "Liandry, Tourment perpétuel",
+      "stats": {
+        "ap": 80,
+        "hp": 250
+      }
+    },
+    {
+      "id": "16",
+      "nom": "Coiffe de Rabadon",
+      "stats": {
+        "ap": 120
+      }
+    },
+    {
+      "id": "17",
       "nom": "Sceptre de Rylai",
       "stats": {
         "ap": 80,
@@ -3833,12 +3848,143 @@
       }
     },
     {
-      "id": "16",
+      "id": "18",
+      "nom": "Présage de Randuin",
+      "stats": {
+        "armure": 80,
+        "hp": 400
+      }
+    },
+    {
+      "id": "19",
+      "nom": "Danse de la mort",
+      "stats": {
+        "ad": 55,
+        "hp": 300
+      }
+    },
+    {
+      "id": "20",
+      "nom": "Gage de la Gargouille",
+      "stats": {
+        "armure": 60,
+        "armure_magique": 60,
+        "hp": 350
+      }
+    },
+    {
+      "id": "21",
+      "nom": "Égide solaire",
+      "stats": {
+        "hp": 400,
+        "armure": 50
+      }
+    },
+    {
+      "id": "22",
+      "nom": "Vœu du chevalier",
+      "stats": {
+        "hp": 400
+      }
+    },
+    {
+      "id": "24",
+      "nom": "Encensoir ardent",
+      "stats": {
+        "ap": 60
+      }
+    },
+    {
+      "id": "25",
+      "nom": "Maillet gelé",
+      "stats": {
+        "ad": 35,
+        "hp": 700
+      }
+    },
+    {
+      "id": "28",
+      "nom": "Glaive d'ombre",
+      "stats": {
+        "ad": 55
+      }
+    },
+    {
+      "id": "29",
+      "nom": "Manteau de la Nuit",
+      "stats": {
+        "ad": 55,
+        "hp": 250
+      }
+    },
+    {
+      "id": "30",
+      "nom": "Cœur gelé",
+      "stats": {
+        "armure": 90
+      }
+    },
+    {
+      "id": "31",
+      "nom": "Lame spectre de Youmuu",
+      "stats": {
+        "ad": 55
+      }
+    },
+    {
+      "id": "32",
+      "nom": "Percepteur",
+      "stats": {
+        "ad": 55,
+        "crit": 0.2
+      }
+    },
+    {
+      "id": "33",
       "nom": "Danseur fantôme",
       "stats": {
         "ad": 45,
         "crit": 0.3,
         "vitesse_attaque": 0.45
+      }
+    },
+    {
+      "id": "34",
+      "nom": "Rancune de Serylda",
+      "stats": {
+        "ad": 45
+      }
+    },
+    {
+      "id": "35",
+      "nom": "Faux spectrale",
+      "stats": {
+        "ad": 50,
+        "crit": 0.2
+      }
+    },
+    {
+      "id": "36",
+      "nom": "Bâton séculaire",
+      "stats": {
+        "ap": 60,
+        "hp": 300
+      }
+    },
+    {
+      "id": "37",
+      "nom": "Lame enragée de Guinsoo",
+      "stats": {
+        "ad": 45,
+        "ap": 45,
+        "vitesse_attaque": 0.25
+      }
+    },
+    {
+      "id": "50",
+      "nom": "Cryptocœur",
+      "stats": {
+        "ap": 100
       }
     }
   ]
