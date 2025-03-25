@@ -114,17 +114,6 @@ class Router {
             }
         });
 
-        // Gestion des favoris par champion
-        document.querySelector('.toggle-favorite-item')?.addEventListener('click', async () => {
-            const championId = new URLSearchParams(window.location.hash.split('?')[1]).get('id');
-            const itemId = parseInt(document.querySelector('.item-select').value); // Correction ici
-            
-            if (!championId || isNaN(itemId)) return;
-        
-            await Provider.toggleItemFavorite(championId, itemId);
-            Router.loadRoute();
-        });
-
         // Filtres par rôle
         document.querySelectorAll('.role-filter').forEach(btn => {
             btn.addEventListener('click', () => {

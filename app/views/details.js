@@ -109,9 +109,6 @@ const Details = {
                                             </option>
                                         `).join('')}
                                 </select>
-                                <button class="toggle-favorite-item">
-                                    ${items.find(i => i.id === parseInt(document.querySelector('.item-select')?.value))?.isFavorite ? '★' : '☆'}
-                                </button>
                                 <button class="add-item-button">Ajouter l'item</button>
                             </div>
                         </div>
