@@ -90,20 +90,6 @@ class Provider {
             console.error('Erreur mise à jour champion', error);
         }
     }
-    
-    static async toggleItemFavorite(championId, itemId) {
-        const favorites = JSON.parse(localStorage.getItem('itemFavorites')) || {};
-        if (!favorites[championId]) favorites[championId] = [];
-        
-        const index = favorites[championId].indexOf(itemId);
-        if (index > -1) {
-            favorites[championId].splice(index, 1);
-        } else {
-            favorites[championId].push(itemId);
-        }
-        localStorage.setItem('itemFavorites', JSON.stringify(favorites));
-        return favorites;
-    }
 
     static async manageItemKits(kitData = null, action = 'get') {
         const kits = JSON.parse(localStorage.getItem('itemKits')) || {};
