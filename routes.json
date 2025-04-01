@@ -1,0 +1,5 @@
+{
+    "/champions": "/champions",
+    "/champions/:id": "/champions/:id",
+    "/items": "/items"
+}
